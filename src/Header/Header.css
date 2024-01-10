@@ -1,0 +1,36 @@
+.header {
+    max-width: 100%;
+    max-height: 80px;
+    border-bottom: 1px solid rgba(161, 161, 161, .8);
+}
+
+.header__ul {
+    display: flex;
+    justify-content: flex-end;
+    margin: 0;
+    padding: 0;
+}
+
+.header__li {
+    display: inline-flex;
+    padding: 31px 0;
+    margin-right: 40px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21.33px;
+    color: rgba(255, 255, 255);
+}
+
+.header__li:hover {
+    border-bottom: 2px solid #FFF;
+}
+
+.header__li-link {
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Montserrat';
+    color: #FFF;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
