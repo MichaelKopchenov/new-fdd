@@ -34,3 +34,33 @@
     border: none;
     cursor: pointer;
 }
+
+.header__burger {
+    min-height: 40px;
+    max-width: 40px;
+    width: 40px;
+    background-image: url(../../images/menu_icon.svg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 50%;
+    cursor: pointer;
+    border: 1px solid white;
+    margin-right: 20px;
+}
+
+.header__burger:hover:enabled {
+    opacity: .6;
+    transition: .5s linear;
+}
+
+@media screen and (max-width: 320px) {
+    .header {
+        max-width: 320px;
+    }
+
+    .header__li {
+        padding: 0;
+        margin: 0;
+    }
+}

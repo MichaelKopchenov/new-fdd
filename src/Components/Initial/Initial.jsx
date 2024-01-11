@@ -1,3 +1,5 @@
+import { buttonComponentText } from '../../utils/arrays';
+import ButtonComponent from '../ButtonComponent/ButtonComponent';
 import Header from '../Header/Header';
 import './Initial.css';
 
@@ -13,11 +15,7 @@ export default function Initial() {
                     Мы создаем легкие решения
                     сложных задач и проблем
                 </h1>
-                <a href="#Services" className='initial__block-button'>
-                    <p className='initial__block-button_text'>
-                        Узнать больше
-                    </p>
-                </a>
+                <ButtonComponent {...buttonComponentText[0]} />
             </div>
         </div>
     )

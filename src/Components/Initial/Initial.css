@@ -2,10 +2,10 @@
     background-image: url(../../images/back1.png);
     background-size: 100%;
     background-repeat: no-repeat;
-    min-height: 900px;
     display: grid;
     grid-template-rows: 80px;
     align-items: center;
+    min-height: 900px;
 }
 
 .initial__block {
@@ -41,52 +41,35 @@
     margin: 20px auto 0 auto;
 }
 
-.initial__block-button {
-    text-decoration: none;
-    width: 200px;
-    height: 45px;
-    flex-shrink: 0;
-    border-radius: 30px;
-    background-color: #4985FF;
-    box-shadow: 0px 0px 10px 0px rgba(111, 111, 111, 0.25);
-    margin: 50px auto 0 auto;
-}
-
-.initial__block-button:hover {
-    opacity: .6;
-    transition: 1s;
-}
-
-.initial__block-button_text {
-    color: #FFF;
-    text-align: center;
-    font-family: 'Montserrat';
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-    margin: 13px auto 15px auto;
-}
-
 @media screen and (max-width: 1280px) {
     .initial {
+        min-height: 600px;
         grid-template-rows: 80px 500px;
     }
 }
 
 @media screen and (max-width: 1024px) {
     .initial {
+        min-height: 480px;
         grid-template-rows: 80px 400px;
     }
 }
 
 @media screen and (max-width: 768px) {
     .initial {
-        grid-template-rows: 80px 300px;
+        min-height: 360px;
+        grid-template-rows: 80px 250px;
     }
 
     .initial__block-h1 {
         font-size: 28px;
         max-width: 500px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .initial {
+        background-size: cover;
+        justify-items: end;
     }
 }
