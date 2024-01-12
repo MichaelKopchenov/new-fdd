@@ -1,6 +1,5 @@
 .list-component__item {
     display: flex;
-    align-items: center;
     text-align: left;
     margin-right: 40px;
 }

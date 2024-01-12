@@ -6,12 +6,6 @@
     border-radius: 30px;
     background-color: #4985FF;
     box-shadow: 0px 0px 10px 0px rgba(111, 111, 111, 0.25);
-    margin: 50px auto 0 auto;
-}
-
-.button-component__block-button:hover:enabled {
-    opacity: .6;
-    transition: 1s;
 }
 
 .button-component__block-button_text {
@@ -23,4 +17,11 @@
     font-weight: 500;
     line-height: normal;
     margin: 13px auto 15px auto;
+}
+
+@media (hover: hover) {
+    .button-component__block-button:hover {
+        opacity: .6;
+        transition: 1s;
+    }
 }

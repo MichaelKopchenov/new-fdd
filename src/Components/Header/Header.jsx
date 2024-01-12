@@ -1,55 +1,50 @@
-import './Header.css';
+/* eslint-disable jsx-a11y/anchor-is-valid */
+import "./Header.css";
 
-export default function Header({ onChange }) {
-    return (
-        <header className="header" id='Header'>
-                <ul className='header__ul'>
-                    <li className='header__li'>
-                        <button
-                            className='header__li-link'
-                            active='main'
-                            onClick={() => onChange('main')
-                            }>
-                            Главная
-                        </button>
-                    </li>
-                    <li className='header__li'>
-                        <button
-                            className='header__li-link'
-                            active='staff'
-                            onClick={() => onChange('staff')}
-                        >
-                            Наша команда
-                        </button>
-                    </li>
-                    <li className='header__li'>
-                        <button
-                            className='header__li-link'
-                            active='works'
-                            onClick={() => onChange('works')}
-                        >
-                            Наши проекты
-                        </button>
-                    </li>
-                    <li className='header__li'>
-                        <button
-                            className='header__li-link'
-                            active='works'
-                            onClick={() => onChange('services')}
-                        >
-                            Услуги
-                        </button>
-                    </li>
-                    <li className='header__li'>
-                        <button
-                            className='header__li-link'
-                            active='works'
-                            onClick={() => onChange('contacts')}
-                        >
-                            Контакты
-                        </button>
-                    </li>
-                </ul>
-            </header>
-    )
+export default function Header() {
+  return (
+    <header
+      className="header"
+      id="Header"
+    >
+      <ul className="header__ul">
+        <li className="header__li">
+          <a
+            href="#Team"
+            className="header__li-link"
+            active="staff"
+          >
+            Наша команда
+          </a>
+        </li>
+        <li className="header__li">
+          <a
+            href="#Works"
+            className="header__li-link"
+            active="works"
+          >
+            Наши проекты
+          </a>
+        </li>
+        <li className="header__li">
+          <a
+            href="#"
+            className="header__li-link"
+            active="works"
+          >
+            Услуги
+          </a>
+        </li>
+        <li className="header__li">
+          <a
+            href="#Footer"
+            className="header__li-link"
+            active="works"
+          >
+            Контакты
+          </a>
+        </li>
+      </ul>
+    </header>
+  );
 }

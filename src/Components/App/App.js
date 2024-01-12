@@ -1,7 +1,10 @@
-import Initial from '../Initial/Initial';
-import Services from '../Services/Services';
-import Standarts from '../Standarts/Standarts';
-import './App.css';
+import Initial from "../Initial/Initial";
+import Services from "../Services/Services";
+import Standarts from "../Standarts/Standarts";
+import Works from "../Works/works";
+import "./App.css";
+import Team from "../Team/Team";
+import Footer from "../Footer/Footer";
 
 export default function App() {
   return (
@@ -9,6 +12,9 @@ export default function App() {
       <Initial />
       <Services />
       <Standarts />
+      <Works />
+      <Team />
+      <Footer />
     </>
   );
-};
+}

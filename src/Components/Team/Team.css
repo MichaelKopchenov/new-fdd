@@ -1,0 +1,45 @@
+.team {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 130px;
+    background-image: url(../../images/back.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.team__title {
+    color: #fff;
+    text-align: center;
+    font-family: 'Montserrat';
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 146.28%;
+    margin: 100px auto 0;
+}
+
+.team__description {
+    color: var(--grey, #999);
+    text-align: center;
+    font-family: 'Montserrat';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 158.47%;
+    max-width: 730px;
+    margin: 50px auto 0;
+}
+
+.team__staff {
+    display: flex;
+    justify-content: center;
+    margin: 70px auto 50px;
+}
+
+@media screen and (max-width: 320px) {
+    .team__staff {
+        flex-direction: column;
+    }
+}

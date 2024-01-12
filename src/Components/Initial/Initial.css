@@ -1,11 +1,11 @@
 .initial {
-    background-image: url(../../images/back1.png);
-    background-size: 100%;
+    background-image: url(../../images/back.svg);
+    background-size: cover;
     background-repeat: no-repeat;
     display: grid;
     grid-template-rows: 80px;
     align-items: center;
-    min-height: 900px;
+    height: 100vh;
 }
 
 .initial__block {
@@ -27,18 +27,34 @@
     margin: 0;
 }
 
+.initial__text {
+    font-family: 'Buyan';
+    margin: 0 auto;
+    font-size: 96px;
+    font-weight: 500;
+    line-height: 75px;
+    letter-spacing: calc(1em / 5);
+    overflow: hidden;
+    white-space: nowrap;
+}
+
 .initial__block-h1 {
-    max-width: 829px;
-    max-height: 111px;
-    flex-shrink: 0;
-    color: #FFF;
-    text-align: center;
-    font-family: 'Montserrat';
-    font-size: 48px;
-    font-style: normal;
-    font-weight: 800;
-    line-height: 134.09%;
-    margin: 20px auto 0 auto;
+    color: rgba(77, 189, 252, 1);
+    max-width: 575px;
+    text-transform: uppercase;
+    border-right: 2px solid rgba(77, 189, 252, 1);
+    animation: typing-title 1s steps(20, end) forwards, blink-caret-title .3s infinite;
+    margin: 20px auto 10px auto;
+}
+
+.initial__block-span {
+    display: none;
+    margin-bottom: 50px;
+    padding-right: 10px;
+    max-width: 450px;
+    color: rgba(221, 29, 29, 1);
+    border-right: 2px solid rgba(221, 29, 29, 1);
+    animation: typing-span 1s steps(20, end) forwards, blink-caret-span .8s infinite;
 }
 
 @media screen and (max-width: 1280px) {
@@ -71,5 +87,46 @@
     .initial {
         background-size: cover;
         justify-items: end;
+        grid-template-rows: 80px 80%;
+    }
+}
+
+@keyframes typing-title {
+    from {
+        width: 0
+    }
+
+    to {
+        width: 100%
+    }
+}
+
+@keyframes typing-span {
+    from {
+        width: 0
+    }
+
+    to {
+        width: 100%
+    }
+}
+
+@keyframes blink-caret-title {
+    from {
+        border-color: transparent
+    }
+
+    to {
+        border-color: var(--font-two-color)
+    }
+}
+
+@keyframes blink-caret-span {
+    from {
+        border-color: transparent
+    }
+
+    to {
+        border-color: var(--font-one-color)
     }
 }

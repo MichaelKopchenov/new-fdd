@@ -1,0 +1,36 @@
+.staff-component__block {
+    display: flex;
+}
+
+.staff-component__image {
+    max-width: 255px;
+    max-height: 255px;
+    height: 255px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-right: 30px;
+}
+
+.staff-component__image:last-child {
+    margin: 0;
+}
+
+.staff__title {
+    margin: 30px auto 0;
+    color: #fff;
+    font-family: 'Montserrat';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.staff__post {
+    color: var(--grey, #999);
+    font-family: 'Montserrat';
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 158.47%;
+    margin: 10px auto 0;
+}

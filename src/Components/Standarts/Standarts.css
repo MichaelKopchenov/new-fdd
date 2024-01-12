@@ -20,8 +20,6 @@
 }
 
 .standarts__content_block_title {
-    width: 424px;
-    height: 88px;
     flex-shrink: 0;
     color: var(--dark, #323232);
     font-family: 'Montserrat';
@@ -32,8 +30,6 @@
 }
 
 .standarts__content_block_description {
-    width: 489px;
-    height: 117px;
     flex-shrink: 0;
     color: var(--grey, #999);
     font-family: 'Montserrat';
@@ -44,7 +40,6 @@
 }
 
 .standarts__content_block_image {
-    background: lightgray 50% / cover no-repeat, #C4C4C4;
     background-image: url(../../images/standarts-logo.png);
     background-position: center;
     box-shadow: 0px 0px 10px 0px rgba(111, 111, 111, 0.25);
@@ -58,4 +53,31 @@
     display: flex;
     margin: 70px auto 0;
     padding: 0;
+}
+
+@media screen and (max-width: 320px) {
+    .standarts {
+        max-width: 320px;
+        padding: 30px 0 70px 0;
+    }
+
+    .standarts__content {
+        max-width: 320px;
+        flex-direction: column;
+    }
+
+    .standarts__content_block {
+        max-width: 320px;
+        text-align: center;
+        margin: 0;
+    }
+
+    .standarts__list {
+        flex-direction: column;
+    }
+
+    .standarts__content_block_image {
+        max-width: 320px;
+    }
+
 }
