@@ -37,6 +37,8 @@
 
 .services__list {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     margin: 70px auto 55px;
     padding: 0;
 }
@@ -72,9 +74,28 @@
     .services {
         padding: 50px 0;
     }
+
+    .services__list {
+        align-items: center;
+    }
+
+    .services__title {
+        max-width: 758px;
+        font-size: large;
+    }
+
+    .services__description {
+        margin-top: 15px;
+        font-size: small;
+    }
 }
 
 @media screen and (max-width: 320px) {
+    .services__list {
+        max-width: 320px;
+        flex-direction: column;
+    }
+
     .services__title {
         max-width: 310px;
         font-size: large;
@@ -83,5 +104,11 @@
     .services__description {
         margin-top: 15px;
         font-size: small;
+    }
+}
+
+@media screen and (max-width: 280px) {
+    .services__list {
+        max-width: 280px;
     }
 }

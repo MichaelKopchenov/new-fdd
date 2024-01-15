@@ -34,6 +34,7 @@
 
 .team__staff {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     margin: 70px auto 50px;
 }

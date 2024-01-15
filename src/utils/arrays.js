@@ -1,3 +1,5 @@
+export const standartsBackground = require("../images/standarts-logo.png");
+
 export const listComponentText = [
   {
     title: "Создание сайтов",

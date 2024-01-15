@@ -6,7 +6,7 @@ export default function StaffComponent({
   post,
 }) {
   return (
-    <div>
+    <div className="staff-component">
       <img
         src={image}
         alt={name}

@@ -11,6 +11,10 @@
     padding: 0;
 }
 
+.header__ul_none {
+    display: none;
+}
+
 .header__li {
     display: inline-flex;
     padding: 31px 0;
@@ -62,5 +66,11 @@
     .header__li {
         padding: 0;
         margin: 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .header__burger {
+        max-height: 40px;
     }
 }

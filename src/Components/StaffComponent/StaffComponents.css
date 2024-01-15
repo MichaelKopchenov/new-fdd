@@ -34,3 +34,14 @@
     line-height: 158.47%;
     margin: 10px auto 0;
 }
+
+@media screen and (max-width: 768px) {
+    .staff-component__image {
+        margin-right: 0;
+    }
+
+    .staff-component {
+        margin: 0 40px;
+    }
+
+}

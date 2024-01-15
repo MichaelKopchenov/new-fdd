@@ -40,19 +40,86 @@
 }
 
 .standarts__content_block_image {
-    background-image: url(../../images/standarts-logo.png);
+    /* background-image: url(../../images/standarts-logo.png); */
     background-position: center;
     box-shadow: 0px 0px 10px 0px rgba(111, 111, 111, 0.25);
-    width: 500px;
-    height: 400px;
     flex-shrink: 0;
     border-radius: 30px;
 }
 
 .standarts__list {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     margin: 70px auto 0;
     padding: 0;
+}
+
+@media screen and (max-width: 1280px) {
+    .standarts__content {
+        justify-content: center;
+        text-align: center;
+    }
+
+    .standarts__content_block {
+        margin-right: 0;
+    }
+
+    .standarts__list {
+        align-items: center;
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .standarts__content {
+        justify-content: center;
+        text-align: center;
+    }
+
+    .standarts__content_block {
+        margin-right: 0;
+    }
+
+    .standarts__list {
+        align-items: center;
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .standarts {
+        padding-bottom: 0;
+    }
+
+    .standarts__content {
+        max-width: 768px;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .standarts__content_block {
+        margin-right: 0;
+    }
+
+    .standarts__content_block_title {
+        max-width: 758px;
+        font-size: large;
+    }
+
+    .standarts__content_block_description {
+        margin-top: 15px;
+        font-size: small;
+    }
+
+    .standarts__content_block_image {
+        max-width: 320px;
+    }
+
+    .standarts__list {
+        align-items: center;
+        margin-top: 20px;
+    }
 }
 
 @media screen and (max-width: 320px) {
@@ -79,5 +146,30 @@
     .standarts__content_block_image {
         max-width: 320px;
     }
+}
 
+@media screen and (max-width: 280px) {
+    .standarts {
+        max-width: 2800px;
+        padding: 30px 0 70px 0;
+    }
+
+    .standarts__content {
+        max-width: 280px;
+        flex-direction: column;
+    }
+
+    .standarts__content_block {
+        max-width: 280px;
+        text-align: center;
+        margin: 0;
+    }
+
+    .standarts__list {
+        flex-direction: column;
+    }
+
+    .standarts__content_block_image {
+        max-width: 280px;
+    }
 }

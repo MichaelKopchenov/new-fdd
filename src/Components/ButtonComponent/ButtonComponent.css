@@ -25,3 +25,9 @@
         transition: 1s;
     }
 }
+
+@media screen and (max-width: 320px) {
+    .button-component__block-button {
+        margin: 0 auto 20px;
+    }
+}

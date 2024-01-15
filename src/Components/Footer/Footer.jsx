@@ -8,7 +8,7 @@ export default function Footer() {
       className="footer"
     >
       <div className="footer__content">
-        <div>
+        <div className="footer__block">
           <h2 className="footer__title">
             Контактная информация
           </h2>
@@ -34,7 +34,7 @@ export default function Footer() {
             </li>
           </ul>
         </div>
-        <div>
+        <div className="footer__block">
           <h2 className="footer__title">
             Основные ссылки
           </h2>
@@ -65,7 +65,7 @@ export default function Footer() {
             </li>
           </ul>
         </div>
-        <div>
+        <div className="footer__block">
           <h2 className="footer__title">
             Социальные сети
           </h2>

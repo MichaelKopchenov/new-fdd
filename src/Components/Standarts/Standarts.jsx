@@ -1,4 +1,7 @@
-import { listComponentStandartText } from "../../utils/arrays";
+import {
+  listComponentStandartText,
+  standartsBackground,
+} from "../../utils/arrays";
 import ListComponentStandarts from "../ListComponentStandarts/ListComponentStandarts";
 import "./Standarts.css";
 
@@ -23,7 +26,11 @@ export default function Standarts() {
             поддержку обновлений.
           </p>
         </div>
-        <div className="standarts__content_block_image" />
+        <img
+          src={standartsBackground}
+          alt="Обложка"
+          className="standarts__content_block_image"
+        />
       </div>
       <ul className="standarts__list">
         {listComponentStandartText.map((item) => (

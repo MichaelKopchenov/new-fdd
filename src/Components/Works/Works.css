@@ -26,10 +26,11 @@
 .works__list {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
     margin: 0 auto 0;
     padding: 0 0 85px;
     border-bottom: 1px solid #e0e0e0;
-    max-width: 1110px;
 }
 
 @media screen and (max-width: 320px) {
@@ -44,5 +45,18 @@
 
     .works__title {
         font-size: 26px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .works__block {
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .works__title {
+        max-width: 758px;
+        font-size: large;
+        text-align: center;
     }
 }

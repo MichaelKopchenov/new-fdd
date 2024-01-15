@@ -51,9 +51,25 @@
     line-height: 158.47%;
 }
 
-@media screen and (max-width: 320px) {
-    .services__list {
-        max-width: 320px;
+@media screen and (max-width: 768px) {
+    .list-component__item {
+        margin-right: 0;
+    }
+
+    .list-component__item_block {
+        max-width: 300px;
+    }
+}
+
+@media screen and (max-width: 280px) {
+    .list-component__item {
         flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .list-component__item_block {
+        max-width: 280px;
+        margin-left: 0;
     }
 }
