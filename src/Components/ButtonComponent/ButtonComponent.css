@@ -31,3 +31,9 @@
         margin: 0 auto 20px;
     }
 }
+
+@media screen and (max-width: 768px) {
+    .button-component__block-button {
+        margin: 0 auto 20px;
+    }
+}

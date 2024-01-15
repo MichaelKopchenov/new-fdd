@@ -29,11 +29,17 @@ export default function Header() {
 
   if (width <= 769) {
     return (
-      <header
-        className="header__burger"
-        id="Header"
-        onClick={() => setModalActive(true)}
-      ></header>
+      <>
+        <header
+          className="header__burger"
+          id="Header"
+          onClick={() => setModalActive(true)}
+        ></header>
+        <Popup
+          active={modalActive}
+          setActive={setModalActive}
+        />
+      </>
     );
   } else {
     return (
@@ -41,10 +47,6 @@ export default function Header() {
         className="header"
         id="Header"
       >
-        <Popup
-          active={modalActive}
-          setActive={setModalActive}
-        />
         <ul className="header__ul">
           <li className="header__li">
             <a

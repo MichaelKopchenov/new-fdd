@@ -44,6 +44,7 @@
     max-width: 40px;
     width: 40px;
     background-image: url(../../images/menu_icon.svg);
+    background-color: black;
     background-size: 100%;
     background-repeat: no-repeat;
     background-position: center;
@@ -51,11 +52,28 @@
     cursor: pointer;
     border: 1px solid white;
     margin-right: 20px;
+    position: fixed;
+    top: 20px;
+    right: 0;
 }
 
 .header__burger:hover:enabled {
     opacity: .6;
     transition: .5s linear;
+}
+
+.header__ul.active {
+    flex-direction: column;
+}
+
+.header__li-link.active {
+    color: black;
+    text-decoration: none;
+}
+
+.header__li.active {
+    margin-right: 0;
+    margin-bottom: 40px;
 }
 
 @media screen and (max-width: 320px) {

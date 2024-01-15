@@ -10,7 +10,6 @@
 
 .services__title {
     max-width: 739px;
-    max-height: 88px;
     flex-shrink: 0;
     color: var(--dark, #323232);
     text-align: center;
@@ -72,7 +71,7 @@
 
 @media screen and (max-width: 768px) {
     .services {
-        padding: 50px 0;
+        padding: 30px 0;
     }
 
     .services__list {
@@ -81,7 +80,7 @@
 
     .services__title {
         max-width: 758px;
-        font-size: large;
+        font-size: 36px;
     }
 
     .services__description {

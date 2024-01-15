@@ -2,6 +2,7 @@
     display: flex;
     flex-direction: column;
     margin-right: 30px;
+    box-sizing: border-box;
 }
 
 .list-component-works:last-child {
@@ -70,6 +71,7 @@
     .list-component-works,
     .list-component-works:last-child {
         margin: 0 0 20px;
+        /* padding: 20px; */
         text-align: center;
         background-color: #ededed;
     }
@@ -77,9 +79,14 @@
 
 
 @media screen and (max-width: 320px) {
-    .list-component-works {
+
+    .list-component-works,
+    .list-component-works:last-child {
         margin: 20px 0;
         text-align: center;
+        max-width: 320px;
+        padding: 20px 0;
+        box-sizing: border-box;
     }
 
     .list-component-works__image {
@@ -88,8 +95,11 @@
 }
 
 @media screen and (max-width: 280px) {
-    .list-component-works {
+
+    .list-component-works,
+    .list-component-works:last-child {
         margin: 20px 0;
+        max-width: 280px;
         text-align: center;
     }
 
