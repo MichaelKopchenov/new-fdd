@@ -40,9 +40,13 @@ export default function Footer() {
               </a>
             </li>
             <li className="footer__link">
-              <p className="footer__text">
+              <a
+                href="https://yandex.ru/maps/-/CDuniG2p"
+                className="footer__text"
+                target="_blanc"
+              >
                 Москва, пр-т Вернадского 82
-              </p>
+              </a>
             </li>
           </ul>
         </div>
