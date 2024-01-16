@@ -70,6 +70,6 @@
 
 Ниже указаны ссылки на GH-Pages, репозиторий и портфолио
 
-- [Репозиторий GitHub ©2023. Kopchenov Mikhail Victorovich](https://github.com/MichaelKopchenov/new-fdd/)
-- [GH-Pages FDD ©2023. Created by Kopchenov Mikhail Victorovich](https://michaelkopchenov.github.io/new-fdd/)
-- [Fast Digital Decisions ©2023. Created by Kopchenov Mikhail Viktorovich](http://michaelkopchenov.ru)
+- [Репозиторий GitHub ©2024. Kopchenov Mikhail Victorovich](https://github.com/MichaelKopchenov/new-fdd/)
+- [GH-Pages FDD ©2024. Created by Kopchenov Mikhail Victorovich](https://michaelkopchenov.github.io/new-fdd/)
+- [©2024. Created by Kopchenov Mikhail Viktorovich](http://michaelkopchenov.ru)
