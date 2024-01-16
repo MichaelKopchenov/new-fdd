@@ -1,10 +1,12 @@
 import { useRef, useEffect } from "react";
 import { buttonComponentText } from "../../utils/arrays";
-import ButtonComponent from "../ButtonComponent/ButtonComponent";
+import Button from "../Button/Button";
 import Header from "../Header/Header";
 import "./Initial.css";
 
-export default function Initial() {
+export default function Initial({
+  setModalActive,
+}) {
   const titleRef = useRef();
   const spanRef = useRef();
 
@@ -35,9 +37,7 @@ export default function Initial() {
         >
           Decisions
         </span>
-        <ButtonComponent
-          {...buttonComponentText[0]}
-        />
+        <Button {...buttonComponentText[0]} />
       </div>
     </div>
   );

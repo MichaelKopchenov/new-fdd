@@ -1,12 +1,21 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
+import { useState } from "react";
+import PopupServices from "../PopupServices/PopupServices";
 import "./Footer.css";
 
 export default function Footer() {
+  const [modalActive, setModalActive] =
+    useState(false);
+
   return (
     <footer
       id="Footer"
       className="footer"
     >
+      <PopupServices
+        active={modalActive}
+        setActive={setModalActive}
+      />
       <div className="footer__content">
         <div className="footer__block">
           <h2 className="footer__title">
@@ -57,7 +66,9 @@ export default function Footer() {
             </li>
             <li className="footer__link">
               <a
-                href=""
+                onClick={() =>
+                  setModalActive(true)
+                }
                 className="footer__text"
               >
                 Наши услуги

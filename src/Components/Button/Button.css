@@ -1,0 +1,40 @@
+.button__block-button {
+    text-decoration: none;
+    width: 200px;
+    height: 45px;
+    flex-shrink: 0;
+    border-radius: 30px;
+    background-color: #4985FF;
+    box-shadow: 0px 0px 10px 0px rgba(111, 111, 111, 0.25);
+    cursor: pointer;
+}
+
+.button__block-button_text {
+    color: #FFF;
+    text-align: center;
+    font-family: 'Montserrat';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin: 13px auto 15px auto;
+}
+
+@media (hover: hover) {
+    .button__block-button:hover {
+        opacity: .6;
+        transition: 1s;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .button__block-button {
+        margin: 0 auto 20px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .button__block-button {
+        margin: 0 auto 20px;
+    }
+}

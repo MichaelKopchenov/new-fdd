@@ -62,13 +62,13 @@ export const listComponentWorksText = [
     image: require("../images/Sites/mesto.png"),
     title: 'Проект "Место"',
     description:
-      "Сайт-визитка с рекомендациями по организации процесса любого обучения.",
+      "Платформа для публикации фотографий с функциями регистрации, логина, постановки и снятия лайка.",
   },
   {
     image: require("../images/Sites/travel.png"),
     title: 'Проект "Путешествие по России"',
     description:
-      "Сайт-визитка с рекомендациями по организации процесса любого обучения.",
+      "Сайт-визитка с описанием значимых мест России.",
   },
   {
     image: require("../images/Sites/OSNO.png"),
@@ -108,10 +108,38 @@ export const buttonComponentText = [
   },
   {
     title: "Все услуги",
-    hrefTo: "#File",
   },
   {
     title: "Все проекты",
     hrefTo: "#File",
+  },
+];
+
+export const tablePopupPrice = [
+  {
+    Header: "Тип сайта",
+    columns: [
+      {
+        Header: " ",
+        accessor: "type",
+      },
+    ],
+  },
+  {
+    Header: "Услуги",
+    columns: [
+      {
+        Header: "Шаблонные решения",
+        accessor: "desc_one",
+      },
+      {
+        Header: "Уникальный дизайн",
+        accessor: "desc_two",
+      },
+      {
+        Header: "Под ключ с продвижением",
+        accessor: "desc_three",
+      },
+    ],
   },
 ];
