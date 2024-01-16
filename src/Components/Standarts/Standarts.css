@@ -40,7 +40,6 @@
 }
 
 .standarts__content_block_image {
-    /* background-image: url(../../images/standarts-logo.png); */
     background-position: center;
     box-shadow: 0px 0px 10px 0px rgba(111, 111, 111, 0.25);
     flex-shrink: 0;
@@ -112,6 +111,7 @@
     .standarts__content_block_description {
         margin-top: 15px;
         font-size: small;
+        padding: 0 5px;
     }
 
     .standarts__content_block_image {

@@ -39,7 +39,7 @@
     flex-wrap: wrap;
     justify-content: center;
     margin: 70px auto 55px;
-    padding: 0;
+    padding: 0 5px;
 }
 
 .services__block-button {

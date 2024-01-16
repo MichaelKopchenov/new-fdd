@@ -77,6 +77,14 @@
     .footer__block {
         min-width: 250px;
     }
+
+    .footer__list {
+        padding-bottom: 20px;
+    }
+
+    .footer__title {
+        margin-top: 20px;
+    }
 }
 
 @media screen and (max-width: 320px) {

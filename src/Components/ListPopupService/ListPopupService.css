@@ -81,6 +81,10 @@
     .list-popup-service__title {
         font-size: 13px;
     }
+
+    .list-popup-service__description {
+        font-size: 10px;
+    }
 }
 
 @media screen and (max-width: 320px) {
