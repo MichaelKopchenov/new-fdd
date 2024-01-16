@@ -32,9 +32,12 @@ export default function Footer() {
               </a>
             </li>
             <li className="footer__link">
-              <p className="footer__text">
+              <a
+                href="tel:+74993227668"
+                className="footer__text"
+              >
                 +7(499)322-76-68
-              </p>
+              </a>
             </li>
             <li className="footer__link">
               <p className="footer__text">
