@@ -51,6 +51,30 @@ export const listComponentStandartText = [
   },
 ];
 
+export const listPopupServiceText = [
+  {
+    title: "Шаблонные решения:",
+    description_one:
+      "React JS, Tilda или аналоги",
+    description_two: "от 20.000-30.000 рублей",
+    description_three: "от 7-10 дней",
+  },
+  {
+    title: "Уникальный дизайн:",
+    description_one:
+      "Уникальный дизайн, адаптация под все мобильные устройства, поисковая оптимизация, написание текста для сайта",
+    description_two: "от 35.000-55.000 рублей",
+    description_three: "от 14-20 дней",
+  },
+  {
+    title: "Под ключ с продвижением:",
+    description_one:
+      "Дизайн, верстка, натяжка на CMS, интеграция с CRM, наполнение, базовая SEO оптимизация, установка сервисов аналитик",
+    description_two: "от 100.000-120.000 рублей",
+    description_three: "от 25-30 дней",
+  },
+];
+
 export const listComponentWorksText = [
   {
     image: require("../images/Sites/how-to-learn.png"),
@@ -112,34 +136,5 @@ export const buttonComponentText = [
   {
     title: "Все проекты",
     hrefTo: "#File",
-  },
-];
-
-export const tablePopupPrice = [
-  {
-    Header: "Тип сайта",
-    columns: [
-      {
-        Header: " ",
-        accessor: "type",
-      },
-    ],
-  },
-  {
-    Header: "Услуги",
-    columns: [
-      {
-        Header: "Шаблонные решения",
-        accessor: "desc_one",
-      },
-      {
-        Header: "Уникальный дизайн",
-        accessor: "desc_two",
-      },
-      {
-        Header: "Под ключ с продвижением",
-        accessor: "desc_three",
-      },
-    ],
   },
 ];

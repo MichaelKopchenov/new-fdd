@@ -1,119 +1,138 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import "./Popup.css";
 import "../Header/Header.css";
+import { useState } from "react";
+import PopupServices from "../PopupServices/PopupServices";
 
 export default function Popup({
   active,
   setActive,
 }) {
+  const [modalActive, setModalActive] =
+    useState(false);
+
+  function Popups() {
+    setActive(false);
+    setModalActive(true);
+  }
+
   return (
-    <div
-      id="popup"
-      className={
-        active ? "popup active" : "popup"
-      }
-      onClick={() => setActive(false)}
-    >
+    <>
+      <PopupServices
+        active={modalActive}
+        setActive={setModalActive}
+      />
       <div
+        id="popup"
         className={
-          active
-            ? "popup__content active"
-            : "popup__content"
+          active ? "popup active" : "popup"
         }
-        onClick={(e) => e.stopPropagation()}
+        onClick={() => setActive(false)}
       >
-        <ul
+        <PopupServices
+          active={modalActive}
+          setActive={setModalActive}
+        />
+        <div
           className={
-            active ? "header__ul active" : ""
+            active
+              ? "popup__content active"
+              : "popup__content"
           }
+          onClick={(e) => e.stopPropagation()}
         >
-          <li
+          <ul
             className={
-              active ? "header__li active" : ""
+              active ? "header__ul active" : ""
             }
           >
-            <a
-              href="#"
+            <li
               className={
-                active
-                  ? "header__li-link active"
-                  : ""
+                active ? "header__li active" : ""
               }
-              onClick={() => setActive(false)}
             >
-              Главная
-            </a>
-          </li>
-          <li
-            className={
-              active ? "header__li active" : ""
-            }
-          >
-            <a
-              href="#Team"
+              <a
+                href="#"
+                className={
+                  active
+                    ? "header__li-link active"
+                    : ""
+                }
+                onClick={() => setActive(false)}
+              >
+                Главная
+              </a>
+            </li>
+            <li
               className={
-                active
-                  ? "header__li-link active"
-                  : ""
+                active ? "header__li active" : ""
               }
-              onClick={() => setActive(false)}
             >
-              Наша команда
-            </a>
-          </li>
-          <li
-            className={
-              active ? "header__li active" : ""
-            }
-          >
-            <a
-              href="#Works"
+              <a
+                href="#Team"
+                className={
+                  active
+                    ? "header__li-link active"
+                    : ""
+                }
+                onClick={() => setActive(false)}
+              >
+                Наша команда
+              </a>
+            </li>
+            <li
               className={
-                active
-                  ? "header__li-link active"
-                  : ""
+                active ? "header__li active" : ""
               }
-              onClick={() => setActive(false)}
             >
-              Наши проекты
-            </a>
-          </li>
-          <li
-            className={
-              active ? "header__li active" : ""
-            }
-          >
-            <a
-              href="#"
+              <a
+                href="#Works"
+                className={
+                  active
+                    ? "header__li-link active"
+                    : ""
+                }
+                onClick={() => setActive(false)}
+              >
+                Наши проекты
+              </a>
+            </li>
+            <li
               className={
-                active
-                  ? "header__li-link active"
-                  : ""
+                active ? "header__li active" : ""
               }
-              onClick={() => setActive(false)}
             >
-              Услуги
-            </a>
-          </li>
-          <li
-            className={
-              active ? "header__li active" : ""
-            }
-          >
-            <a
-              href="#Footer"
+              <a
+                className={
+                  active
+                    ? "header__li-link active"
+                    : ""
+                }
+                onClick={Popups}
+              >
+                Услуги
+              </a>
+            </li>
+            <li
               className={
-                active
-                  ? "header__li-link active"
-                  : ""
+                active ? "header__li active" : ""
               }
-              onClick={() => setActive(false)}
             >
-              Контакты
-            </a>
-          </li>
-        </ul>
+              <a
+                href="#Footer"
+                className={
+                  active
+                    ? "header__li-link active"
+                    : ""
+                }
+                onClick={() => setActive(false)}
+              >
+                Контакты
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
-    </div>
+    </>
   );
 }
