@@ -1,18 +1,16 @@
-import Initial from "../Initial/Initial";
-import Services from "../Services/Services";
-import Standarts from "../Standarts/Standarts";
-import Works from "../Works/works";
-import "./App.css";
-import Team from "../Team/Team";
-import Footer from "../Footer/Footer";
 import Preloader from "../Preloader/Preloader";
-import AOS from "../AOS/AOS";
+import Standarts from "../Standarts/Standarts";
 import { useEffect, useState } from "react";
+import Services from "../Services/Services";
+import Initial from "../Initial/Initial";
+import Footer from "../Footer/Footer";
+import Works from "../Works/works";
+import Team from "../Team/Team";
+import AOS from "../AOS/AOS";
+import "./App.css";
 
 export default function App() {
   const [loading, setLoading] = useState(false);
-
-  AOS();
 
   useEffect(() => {
     setLoading(true);
@@ -20,6 +18,9 @@ export default function App() {
       setLoading(false);
     }, 500);
   }, []);
+
+  AOS();
+
   return (
     <>
       {loading ? (

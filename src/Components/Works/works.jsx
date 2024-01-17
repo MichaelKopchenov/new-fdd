@@ -1,9 +1,9 @@
+import ListComponentWorks from "../ListComponentWorks/ListComponentWorks";
+import ButtonComponent from "../ButtonComponent/ButtonComponent";
 import {
   buttonComponentText,
   listComponentWorksText,
 } from "../../utils/arrays";
-import ListComponentWorks from "../ListComponentWorks/ListComponentWorks";
-import ButtonComponent from "../ButtonComponent/ButtonComponent";
 import "./Works.css";
 
 export default function Works() {

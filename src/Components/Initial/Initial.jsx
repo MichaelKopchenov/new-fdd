@@ -1,5 +1,5 @@
-import { useRef, useEffect } from "react";
 import { buttonComponentText } from "../../utils/arrays";
+import { useRef, useEffect } from "react";
 import Button from "../Button/Button";
 import Header from "../Header/Header";
 import "./Initial.css";

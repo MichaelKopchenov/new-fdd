@@ -138,3 +138,48 @@ export const buttonComponentText = [
     hrefTo: "#File",
   },
 ];
+
+export const listLinksArrayOne = [
+  {
+    way: "mailto: fdd-info@yandex.ru",
+    target: "_blanc",
+    text: "fdd-info@yandex.ru",
+  },
+  {
+    way: "tel:+74993227668",
+    text: "+7(499)322-76-68",
+  },
+  {
+    way: "https://yandex.ru/maps/-/CDuniG2p",
+    text: "Москва, пр-т Вернадского 82",
+  },
+];
+
+export const listLinksArrayTwo = [
+  {
+    way: "#",
+    text: "Главная",
+  },
+  {
+    way: "#Works",
+    text: "Наши проекты",
+  },
+];
+
+export const listLinksArrayThree = [
+  {
+    way: "https://t.me/FastDigitalDecisions",
+    target: "_blanc",
+    text: "Telegram",
+  },
+  {
+    way: "https://vk.com",
+    target: "_blanc",
+    text: "VK",
+  },
+  {
+    way: "https://github.com/MichaelKopchenov",
+    target: "_blanc",
+    text: "GitHub",
+  },
+];

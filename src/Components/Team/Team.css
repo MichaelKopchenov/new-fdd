@@ -1,43 +1,43 @@
 .team {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding-bottom: 130px;
     background-image: url(../../images/back.svg);
     background-repeat: no-repeat;
+    justify-content: center;
+    flex-direction: column;
     background-size: cover;
+    padding-bottom: 130px;
+    align-items: center;
+    display: flex;
 }
 
 .team__title {
-    color: #fff;
-    text-align: center;
     font-family: 'Montserrat';
-    font-size: 36px;
-    font-style: normal;
-    font-weight: 700;
     line-height: 146.28%;
     margin: 100px auto 0;
+    text-align: center;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    color: #fff;
 }
 
 .team__description {
     color: var(--grey, #999);
-    text-align: center;
     font-family: 'Montserrat';
-    font-size: 16px;
+    line-height: 158.47%;
+    margin: 50px auto 0;
+    text-align: center;
     font-style: normal;
     font-weight: 400;
-    line-height: 158.47%;
     max-width: 730px;
-    margin: 50px auto 0;
+    font-size: 16px;
     padding: 0 5px;
 }
 
 .team__staff {
-    display: flex;
-    flex-wrap: wrap;
     justify-content: center;
     margin: 70px auto 50px;
+    flex-wrap: wrap;
+    display: flex;
 }
 
 @media screen and (max-width: 320px) {

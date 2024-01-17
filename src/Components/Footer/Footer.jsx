@@ -1,6 +1,12 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
-import { useState } from "react";
+import ListComponentLink from "../ListComponentLink/ListComponentLink";
 import PopupServices from "../PopupServices/PopupServices";
+import {
+  listLinksArrayTwo,
+  listLinksArrayOne,
+  listLinksArrayThree,
+} from "../../utils/arrays";
+import { useState } from "react";
 import "./Footer.css";
 
 export default function Footer() {
@@ -22,32 +28,12 @@ export default function Footer() {
             Контактная информация
           </h2>
           <ul className="footer__list">
-            <li className="footer__link">
-              <a
-                href="mailto: fdd-info@yandex.ru"
-                target="_blanc"
-                className="footer__text"
-              >
-                fdd-info@yandex.ru
-              </a>
-            </li>
-            <li className="footer__link">
-              <a
-                href="tel:+74993227668"
-                className="footer__text"
-              >
-                +7(499)322-76-68
-              </a>
-            </li>
-            <li className="footer__link">
-              <a
-                href="https://yandex.ru/maps/-/CDuniG2p"
-                className="footer__text"
-                target="_blanc"
-              >
-                Москва, пр-т Вернадского 82
-              </a>
-            </li>
+            {listLinksArrayOne.map((link) => (
+              <ListComponentLink
+                key={link.way}
+                {...link}
+              />
+            ))}
           </ul>
         </div>
         <div className="footer__block">
@@ -55,22 +41,12 @@ export default function Footer() {
             Основные ссылки
           </h2>
           <ul className="footer__list">
-            <li className="footer__link">
-              <a
-                href="#"
-                className="footer__text"
-              >
-                Главная
-              </a>
-            </li>
-            <li className="footer__link">
-              <a
-                href="#Works"
-                className="footer__text"
-              >
-                Наши проекты
-              </a>
-            </li>
+            {listLinksArrayTwo.map((link) => (
+              <ListComponentLink
+                key={link.way}
+                {...link}
+              />
+            ))}
             <li className="footer__link">
               <a
                 onClick={() =>
@@ -88,33 +64,12 @@ export default function Footer() {
             Социальные сети
           </h2>
           <ul className="footer__list">
-            <li className="footer__link">
-              <a
-                href="https://t.me/FastDigitalDecisions"
-                target="_blanc"
-                className="footer__text"
-              >
-                Telegram
-              </a>
-            </li>
-            <li className="footer__link">
-              <a
-                href="https://vk.com"
-                target="_blanc"
-                className="footer__text"
-              >
-                VK
-              </a>
-            </li>
-            <li className="footer__link">
-              <a
-                href="https://github.com/MichaelKopchenov"
-                target="_blanc"
-                className="footer__text"
-              >
-                GitHub
-              </a>
-            </li>
+            {listLinksArrayThree.map((link) => (
+              <ListComponentLink
+                key={link.way}
+                {...link}
+              />
+            ))}
           </ul>
         </div>
       </div>

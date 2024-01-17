@@ -1,9 +1,9 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
-import "./Popup.css";
-import "../Header/Header.css";
+import PopupServices from "../PopupServices/PopupServices";
 import CloseIcon from "../../images/close-white.png";
 import { useState } from "react";
-import PopupServices from "../PopupServices/PopupServices";
+import "../Header/Header.css";
+import "./Popup.css";
 
 export default function Popup({
   active,

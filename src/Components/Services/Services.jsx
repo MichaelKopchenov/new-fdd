@@ -1,10 +1,10 @@
+import ButtonComponent from "../ButtonComponent/ButtonComponent";
 import ListComponent from "../ListComponent/ListComponent";
 import "aos/dist/aos.css";
 import {
   listComponentText,
   buttonComponentText,
 } from "../../utils/arrays";
-import ButtonComponent from "../ButtonComponent/ButtonComponent";
 import "./Services.css";
 
 export default function Services() {

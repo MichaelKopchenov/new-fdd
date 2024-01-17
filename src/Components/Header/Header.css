@@ -1,14 +1,14 @@
 .header {
-    max-width: 100%;
-    max-height: 80px;
     border-bottom: 1px solid rgba(161, 161, 161, .8);
+    max-height: 80px;
+    max-width: 100%;
 }
 
 .header__ul {
-    display: flex;
     justify-content: flex-end;
-    margin: 0;
+    display: flex;
     padding: 0;
+    margin: 0;
 }
 
 .header__ul_none {
@@ -16,13 +16,13 @@
 }
 
 .header__li {
+    color: rgba(255, 255, 255);
     display: inline-flex;
-    padding: 31px 0;
+    line-height: 21.33px;
     margin-right: 40px;
     font-weight: 500;
     font-size: 16px;
-    line-height: 21.33px;
-    color: rgba(255, 255, 255);
+    padding: 31px 0;
 }
 
 .header__li:hover {
@@ -30,55 +30,55 @@
 }
 
 .header__li-link {
-    padding: 0;
-    text-decoration: none;
     font-family: 'Montserrat';
-    color: #FFF;
+    text-decoration: none;
     background: none;
-    border: none;
     cursor: pointer;
+    color: #FFF;
+    border: none;
+    padding: 0;
 }
 
 .header__burger {
-    min-height: 40px;
-    max-width: 40px;
-    width: 40px;
     background-image: url(../../images/menu_icon.svg);
-    background-color: black;
-    background-size: 100%;
     background-repeat: no-repeat;
     background-position: center;
-    border-radius: 50%;
-    cursor: pointer;
+    background-color: black;
     border: 1px solid white;
+    background-size: 100%;
+    border-radius: 50%;
     margin-right: 20px;
+    min-height: 40px;
+    max-width: 40px;
+    cursor: pointer;
     position: fixed;
+    width: 40px;
     top: 20px;
     right: 0;
 }
 
 .header__burger:hover:enabled {
-    opacity: .6;
     transition: .5s linear;
+    opacity: .6;
 }
 
 .header__ul.active {
-    flex-direction: column;
     justify-content: center;
+    flex-direction: column;
 }
 
 .header__li-link.active {
-    color: white;
     text-decoration: none;
     padding: 0 10px;
+    color: white;
 }
 
 .header__li.active {
-    margin-right: 0;
-    margin-bottom: 40px;
-    justify-content: center;
     border: 1px solid white;
+    justify-content: center;
+    margin-bottom: 40px;
     border-radius: 20px;
+    margin-right: 0;
     padding: 10px 0;
 }
 

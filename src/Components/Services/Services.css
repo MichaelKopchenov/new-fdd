@@ -1,72 +1,72 @@
 .services {
-    background: #FFF;
-    background-size: 100%;
-    display: flex;
     flex-direction: column;
+    background-size: 100%;
     align-items: center;
     text-align: center;
+    background: #FFF;
     padding: 110px 0;
+    display: flex;
 }
 
 .services__title {
-    max-width: 739px;
-    flex-shrink: 0;
     color: var(--dark, #323232);
-    text-align: center;
     font-family: 'Montserrat';
-    font-size: 36px;
+    line-height: 146.28%;
+    text-align: center;
     font-style: normal;
     font-weight: 700;
-    line-height: 146.28%;
+    max-width: 739px;
+    font-size: 36px;
+    flex-shrink: 0;
     margin: 0;
 }
 
 .services__description {
-    max-width: 730px;
-    max-height: 41px;
-    flex-shrink: 0;
     color: var(--grey, #999);
     font-family: 'Montserrat';
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
     line-height: 158.47%;
     margin: 50px auto 0;
+    font-style: normal;
+    max-width: 730px;
+    max-height: 41px;
+    font-weight: 400;
+    font-size: 16px;
+    flex-shrink: 0;
 }
 
 .services__list {
-    display: flex;
-    flex-wrap: wrap;
     justify-content: center;
     margin: 70px auto 55px;
+    flex-wrap: wrap;
     padding: 0 5px;
+    display: flex;
 }
 
 .services__block-button {
+    box-shadow: 0px 0px 10px 0px rgba(111, 111, 111, 0.25);
+    background-color: #4985FF;
+    margin: 55px auto 0 auto;
     text-decoration: none;
+    border-radius: 30px;
+    flex-shrink: 0;
     width: 200px;
     height: 45px;
-    flex-shrink: 0;
-    border-radius: 30px;
-    background-color: #4985FF;
-    box-shadow: 0px 0px 10px 0px rgba(111, 111, 111, 0.25);
-    margin: 55px auto 0 auto;
 }
 
 .services__block-button:hover:enabled {
-    opacity: .6;
     transition: 1s;
+    opacity: .6;
 }
 
 .services__block-button_text {
-    color: #FFF;
-    text-align: center;
+    margin: 13px auto 15px auto;
     font-family: 'Montserrat';
-    font-size: 16px;
+    line-height: normal;
+    text-align: center;
     font-style: normal;
     font-weight: 500;
-    line-height: normal;
-    margin: 13px auto 15px auto;
+    font-size: 16px;
+    color: #FFF;
 }
 
 @media screen and (max-width: 768px) {
@@ -91,8 +91,8 @@
 
 @media screen and (max-width: 320px) {
     .services__list {
-        max-width: 320px;
         flex-direction: column;
+        max-width: 320px;
     }
 
     .services__title {

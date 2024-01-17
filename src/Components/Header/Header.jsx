@@ -1,6 +1,6 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
-import { useState, useEffect } from "react";
 import PopupServices from "../PopupServices/PopupServices";
+import { useState, useEffect } from "react";
 import Popup from "../Popup/Popup";
 import "./Header.css";
 
@@ -35,7 +35,7 @@ export default function Header() {
           className="header__burger"
           id="Header"
           onClick={() => setModalActive(true)}
-        ></header>
+        />
         <Popup
           active={modalActive}
           setActive={setModalActive}

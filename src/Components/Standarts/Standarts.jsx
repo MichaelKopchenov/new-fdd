@@ -1,8 +1,8 @@
+import ListComponentStandarts from "../ListComponentStandarts/ListComponentStandarts";
 import {
   listComponentStandartText,
   standartsBackground,
 } from "../../utils/arrays";
-import ListComponentStandarts from "../ListComponentStandarts/ListComponentStandarts";
 import "./Standarts.css";
 
 export default function Standarts() {

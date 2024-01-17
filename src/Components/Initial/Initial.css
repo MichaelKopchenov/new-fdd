@@ -1,80 +1,80 @@
 .initial {
     background-image: url(../../images/back.svg);
-    background-size: cover;
     background-repeat: no-repeat;
-    display: grid;
     grid-template-rows: 80px;
+    background-size: cover;
     align-items: center;
+    display: grid;
     height: 100vh;
 }
 
 .initial__block {
-    display: flex;
     flex-direction: column;
     align-items: center;
     max-width: 830px;
     margin: 0 auto;
+    display: flex;
 }
 
 .initial__block-h4 {
-    color: #FFF;
-    text-align: center;
     font-family: 'Montserrat';
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 500;
     line-height: normal;
+    font-style: normal;
+    text-align: center;
+    font-weight: 500;
+    font-size: 16px;
+    color: #FFF;
     margin: 0;
 }
 
 .initial__text {
-    font-family: 'Buyan';
-    margin: 0 auto;
-    font-size: 96px;
-    font-weight: 500;
-    line-height: 75px;
     letter-spacing: calc(1em / 5);
-    overflow: hidden;
+    font-family: 'Buyan';
     text-align: center;
+    line-height: 75px;
+    font-weight: 500;
+    overflow: hidden;
+    font-size: 96px;
+    margin: 0 auto;
 }
 
 .initial__block-h1 {
-    color: rgba(77, 189, 252, 1);
-    text-transform: uppercase;
-    border-right: 2px solid rgba(77, 189, 252, 1);
     animation: typing-title 1s steps(20, end) forwards, blink-caret-title .3s infinite;
+    border-right: 2px solid rgba(77, 189, 252, 1);
+    color: rgba(77, 189, 252, 1);
     margin: 20px auto 10px auto;
+    text-transform: uppercase;
 }
 
 .initial__block-span {
-    display: none;
+    animation: typing-span 1s steps(20, end) forwards, blink-caret-span .8s infinite;
+    border-right: 2px solid rgba(221, 29, 29, 1);
+    color: rgba(221, 29, 29, 1);
     margin-bottom: 50px;
     padding-right: 10px;
     max-width: 450px;
-    color: rgba(221, 29, 29, 1);
-    border-right: 2px solid rgba(221, 29, 29, 1);
-    animation: typing-span 1s steps(20, end) forwards, blink-caret-span .8s infinite;
+    display: none;
 }
 
 @media screen and (max-width: 1280px) {
     .initial {
-        min-height: 600px;
         grid-template-rows: 80px;
+        min-height: 600px;
     }
 }
 
 @media screen and (max-width: 1024px) {
     .initial {
-        min-height: 480px;
         grid-template-rows: 80px 80%;
+        min-height: 480px;
     }
 }
 
 @media screen and (max-width: 769px) {
     .initial {
-        min-height: 360px;
         grid-template-rows: 100%;
         justify-items: end;
+        min-height: 360px;
     }
 
     .initial__block {
@@ -86,16 +86,16 @@
     }
 
     .initial__block-span {
-        padding: 0;
         max-width: 320px;
+        padding: 0;
     }
 }
 
 @media screen and (max-width: 320px) {
     .initial {
+        grid-template-rows: 100%;
         background-size: cover;
         justify-items: end;
-        grid-template-rows: 100%;
     }
 
     .initial__block-h1 {

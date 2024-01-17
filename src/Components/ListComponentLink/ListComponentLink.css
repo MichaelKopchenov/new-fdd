@@ -1,0 +1,25 @@
+.list-component-link {
+    color: var(--grey, #999);
+    font-family: 'Montserrat';
+    list-style-type: none;
+    line-height: 158.47%;
+    font-style: normal;
+    font-weight: 400;
+    margin-top: 30px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.list-component-link__text {
+    color: var(--grey, #999);
+    text-decoration: none;
+    margin: 0;
+}
+
+.list-component-link__link:first-child {
+    margin-top: 0;
+}
+
+.list-component-link__text:hover {
+    text-decoration: underline;
+}

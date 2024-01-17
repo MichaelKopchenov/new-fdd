@@ -1,5 +1,5 @@
-import { staffComponentImage } from "../../utils/arrays";
 import StaffComponent from "../StaffComponent/StaffComponents";
+import { staffComponentImage } from "../../utils/arrays";
 import "./Team.css";
 
 export default function Team() {

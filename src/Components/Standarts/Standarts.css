@@ -1,56 +1,56 @@
 .standarts {
-    display: flex;
+    padding: 100px 0 70px 0;
     flex-direction: column;
     align-items: center;
     background: #F6F6F8;
-    padding: 100px 0 70px 0;
+    display: flex;
 }
 
 .standarts__content {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    padding-bottom: 90px;
     border-bottom: 1px solid #e0e0e0;
+    padding-bottom: 90px;
+    align-items: center;
+    flex-wrap: wrap;
+    display: flex;
 }
 
 .standarts__content_block {
-    max-width: 490px;
     margin-right: 120px;
+    max-width: 490px;
 }
 
 .standarts__content_block_title {
-    flex-shrink: 0;
     color: var(--dark, #323232);
     font-family: 'Montserrat';
-    font-size: 36px;
+    line-height: 146.28%;
     font-style: normal;
     font-weight: 700;
-    line-height: 146.28%;
+    font-size: 36px;
+    flex-shrink: 0;
 }
 
 .standarts__content_block_description {
-    flex-shrink: 0;
     color: var(--grey, #999);
     font-family: 'Montserrat';
-    font-size: 16px;
+    line-height: 158.47%;
     font-style: normal;
     font-weight: 400;
-    line-height: 158.47%;
+    font-size: 16px;
+    flex-shrink: 0;
 }
 
 .standarts__content_block_image {
-    background-position: center;
     box-shadow: 0px 0px 10px 0px rgba(111, 111, 111, 0.25);
-    flex-shrink: 0;
+    background-position: center;
     border-radius: 30px;
+    flex-shrink: 0;
 }
 
 .standarts__list {
-    display: flex;
-    flex-wrap: wrap;
     justify-content: center;
     margin: 70px auto 0;
+    flex-wrap: wrap;
+    display: flex;
     padding: 0;
 }
 
@@ -93,9 +93,9 @@
     }
 
     .standarts__content {
-        max-width: 768px;
         justify-content: center;
         text-align: center;
+        max-width: 768px;
     }
 
     .standarts__content_block {
@@ -126,18 +126,18 @@
 
 @media screen and (max-width: 320px) {
     .standarts {
-        max-width: 320px;
         padding: 30px 0 70px 0;
+        max-width: 320px;
     }
 
     .standarts__content {
-        max-width: 320px;
         flex-direction: column;
+        max-width: 320px;
     }
 
     .standarts__content_block {
-        max-width: 320px;
         text-align: center;
+        max-width: 320px;
         margin: 0;
     }
 
@@ -152,18 +152,18 @@
 
 @media screen and (max-width: 280px) {
     .standarts {
-        max-width: 2800px;
         padding: 30px 0 70px 0;
+        max-width: 280px;
     }
 
     .standarts__content {
-        max-width: 280px;
         flex-direction: column;
+        max-width: 280px;
     }
 
     .standarts__content_block {
-        max-width: 280px;
         text-align: center;
+        max-width: 280px;
         margin: 0;
     }
 

@@ -1,29 +1,29 @@
 .button__block-button {
+    box-shadow: 0px 0px 10px 0px rgba(111, 111, 111, 0.25);
+    background-color: #4985FF;
     text-decoration: none;
+    border-radius: 30px;
+    cursor: pointer;
+    flex-shrink: 0;
     width: 200px;
     height: 45px;
-    flex-shrink: 0;
-    border-radius: 30px;
-    background-color: #4985FF;
-    box-shadow: 0px 0px 10px 0px rgba(111, 111, 111, 0.25);
-    cursor: pointer;
 }
 
 .button__block-button_text {
-    color: #FFF;
-    text-align: center;
+    margin: 13px auto 15px auto;
     font-family: 'Montserrat';
-    font-size: 16px;
+    line-height: normal;
+    text-align: center;
     font-style: normal;
     font-weight: 500;
-    line-height: normal;
-    margin: 13px auto 15px auto;
+    font-size: 16px;
+    color: #FFF;
 }
 
 @media (hover: hover) {
     .button__block-button:hover {
-        opacity: .6;
         transition: 1s;
+        opacity: .6;
     }
 }
 
