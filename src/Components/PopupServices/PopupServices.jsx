@@ -1,6 +1,6 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import "./PopupServices.css";
-import CloseIcon from "../../images/close.png";
+import CloseIcon from "../../images/close-white.png";
 import { listPopupServiceText } from "../../utils/arrays";
 import ListPopupService from "../ListPopupService/ListPopupService";
 
@@ -34,7 +34,10 @@ export default function PopupServices({
         />
         <ul className="popup__list">
           {listPopupServiceText.map((item) => (
-            <ListPopupService key={item.title} {...item} />
+            <ListPopupService
+              key={item.title}
+              {...item}
+            />
           ))}
         </ul>
       </div>

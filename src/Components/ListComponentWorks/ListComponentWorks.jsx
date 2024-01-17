@@ -6,7 +6,10 @@ export default function ListComponentWorks({
   image,
 }) {
   return (
-    <li className="list-component-works">
+    <li
+      data-aos="zoom-in"
+      className="list-component-works"
+    >
       <div className="list-component-works__content">
         <img
           src={image}

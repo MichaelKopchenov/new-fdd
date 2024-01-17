@@ -64,16 +64,22 @@
 
 .header__ul.active {
     flex-direction: column;
+    justify-content: center;
 }
 
 .header__li-link.active {
-    color: black;
+    color: white;
     text-decoration: none;
+    padding: 0 10px;
 }
 
 .header__li.active {
     margin-right: 0;
     margin-bottom: 40px;
+    justify-content: center;
+    border: 1px solid white;
+    border-radius: 20px;
+    padding: 10px 0;
 }
 
 @media screen and (max-width: 320px) {

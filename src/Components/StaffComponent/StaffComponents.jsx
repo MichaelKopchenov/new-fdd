@@ -11,6 +11,7 @@ export default function StaffComponent({
         src={image}
         alt={name}
         className="staff-component__image"
+        data-aos="zoom-out"
       />
       <h2 className="staff__title">{name}</h2>
       <p className="staff__post">{post}</p>

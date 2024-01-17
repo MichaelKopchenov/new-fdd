@@ -11,6 +11,7 @@
     opacity: 0;
     pointer-events: none;
     transition: .5s;
+    z-index: 9999;
 }
 
 .popup.active {
@@ -21,13 +22,15 @@
 .popup__content {
     padding: 20px;
     border-radius: 12px;
-    background-color: white;
     transform: scale(.5);
     transition: .4s all;
     width: 50vw;
     height: 95vh;
     border-radius: 20px;
-    background-color: #F6F6F8;
+    background-color: rgba(6, 41, 61, .9);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .popup__content.active {

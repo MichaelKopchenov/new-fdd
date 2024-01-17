@@ -5,7 +5,10 @@ export default function ListComponentStandarts({
   description,
 }) {
   return (
-    <li className="list-component-standarts">
+    <li
+      data-aos="flip-up"
+      className="list-component-standarts"
+    >
       <div className="list-component-standarts__block">
         <div className="list-component-standarts__image" />
         <h3 className="list-component-standarts__title">

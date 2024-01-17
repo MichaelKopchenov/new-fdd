@@ -119,7 +119,7 @@ export default function Footer() {
         </div>
       </div>
       <p className="footer__copy">
-        ©2023. Копченов Михаил Викторович
+        ©2024. Копченов Михаил Викторович
       </p>
     </footer>
   );

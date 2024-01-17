@@ -1,6 +1,7 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import "./Popup.css";
 import "../Header/Header.css";
+import CloseIcon from "../../images/close-white.png";
 import { useState } from "react";
 import PopupServices from "../PopupServices/PopupServices";
 
@@ -29,10 +30,6 @@ export default function Popup({
         }
         onClick={() => setActive(false)}
       >
-        <PopupServices
-          active={modalActive}
-          setActive={setModalActive}
-        />
         <div
           className={
             active
@@ -41,6 +38,12 @@ export default function Popup({
           }
           onClick={(e) => e.stopPropagation()}
         >
+          <img
+            src={CloseIcon}
+            alt="Закрыть"
+            className="popup__services_close-icon"
+            onClick={() => setActive(false)}
+          />
           <ul
             className={
               active ? "header__ul active" : ""
@@ -131,6 +134,9 @@ export default function Popup({
               </a>
             </li>
           </ul>
+          <p className="footer__copy">
+            ©2024. Копченов Михаил Викторович
+          </p>
         </div>
       </div>
     </>

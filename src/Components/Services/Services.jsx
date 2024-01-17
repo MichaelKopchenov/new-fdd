@@ -1,4 +1,5 @@
 import ListComponent from "../ListComponent/ListComponent";
+import "aos/dist/aos.css";
 import {
   listComponentText,
   buttonComponentText,
@@ -12,11 +13,17 @@ export default function Services() {
       id="Services"
       className="services"
     >
-      <h2 className="services__title">
+      <h2
+        data-aos="zoom-in"
+        className="services__title"
+      >
         Мы создаем WEB-приложения для наших
         клиентов
       </h2>
-      <p className="services__description">
+      <p
+        data-aos="zoom-in"
+        className="services__description"
+      >
         Наши уникальные подходы и передовые
         технологии обеспечат ваш бизнес надежным
         фундаментом в цифровом пространстве.

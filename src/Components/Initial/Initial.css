@@ -59,7 +59,7 @@
 @media screen and (max-width: 1280px) {
     .initial {
         min-height: 600px;
-        grid-template-rows: 80px 500px;
+        grid-template-rows: 80px;
     }
 }
 

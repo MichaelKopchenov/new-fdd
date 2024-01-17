@@ -9,7 +9,10 @@ export default function Standarts() {
   return (
     <section className="standarts">
       <div className="standarts__content">
-        <div className="standarts__content_block">
+        <div
+          data-aos="flip-right"
+          className="standarts__content_block"
+        >
           <h2 className="standarts__content_block_title">
             Высокие стандарты разработки
           </h2>
@@ -30,6 +33,7 @@ export default function Standarts() {
           src={standartsBackground}
           alt="Обложка"
           className="standarts__content_block_image"
+          data-aos="flip-left"
         />
       </div>
       <ul className="standarts__list">

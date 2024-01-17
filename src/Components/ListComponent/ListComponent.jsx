@@ -7,10 +7,16 @@ export default function ListComponent({
   return (
     <>
       <li className="list-component__item">
-        <div className="list-component__logo">
+        <div
+          data-aos="fade-up"
+          className="list-component__logo"
+        >
           <div className="list-component__logo_image" />
         </div>
-        <div className="list-component__item_block">
+        <div
+          data-aos="fade-right"
+          className="list-component__item_block"
+        >
           <h3 className="list-component__item_block_title">
             {title}
           </h3>
