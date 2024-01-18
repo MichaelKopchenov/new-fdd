@@ -3,6 +3,7 @@ import {
   listComponentStandartText,
   standartsBackground,
 } from "../../utils/arrays";
+import React from "react";
 import "./Standarts.css";
 
 export default function Standarts() {

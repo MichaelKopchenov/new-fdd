@@ -1,5 +1,5 @@
 import StaffComponent from "../StaffComponent/StaffComponents";
-import { staffComponentImage } from "../../utils/arrays";
+import React from "react";
 import "./Team.css";
 
 export default function Team() {
@@ -18,12 +18,7 @@ export default function Team() {
         на их профили в социальных сетях.
       </p>
       <div className="team__staff">
-        {staffComponentImage.map((img) => (
-          <StaffComponent
-            key={img.image}
-            {...img}
-          />
-        ))}
+        <StaffComponent />
       </div>
     </section>
   );

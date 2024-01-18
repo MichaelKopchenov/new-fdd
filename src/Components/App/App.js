@@ -7,6 +7,7 @@ import Footer from "../Footer/Footer";
 import Works from "../Works/works";
 import Team from "../Team/Team";
 import AOS from "../AOS/AOS";
+import React from "react";
 import "./App.css";
 
 export default function App() {

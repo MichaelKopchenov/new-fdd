@@ -2,6 +2,7 @@ import { buttonComponentText } from "../../utils/arrays";
 import { useRef, useEffect } from "react";
 import Button from "../Button/Button";
 import Header from "../Header/Header";
+import React from "react";
 import "./Initial.css";
 
 export default function Initial({

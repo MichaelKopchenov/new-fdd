@@ -102,26 +102,44 @@ export const listComponentWorksText = [
   },
 ];
 
+export const alex = require("../images/Avatars/Alexey.png");
+
 export const staffComponentImage = [
   {
-    image: require("../images/Avatars/Alexey.png"),
+    imgSrc: require("../images/Avatars/Alexey.png"),
     name: "Алексей",
-    post: "Product/Project manager",
+    fullname: "Червяков Алексей Андреевич",
+    birth: "",
+    desc: "Product/Project manager",
+    edu: "",
+    about: "",
   },
   {
-    image: require("../images/Avatars/Michael.png"),
+    imgSrc: require("../images/Avatars/Michael.png"),
     name: "Михаил",
-    post: "Web-developer",
+    fullname: "Копченов Михаил Викторович",
+    birth: "19.11.1993г",
+    desc: "Web-developer",
+    edu: "Курс 'Веб-разработчик' в Яндекс.Практикум",
+    about: "",
   },
   {
-    image: require("../images/Avatars/Sergey.png"),
+    imgSrc: require("../images/Avatars/Sergey.png"),
     name: "Сергей",
-    post: "Digital marketing",
+    fullname: "",
+    birth: "",
+    desc: "Digital marketing",
+    edu: "",
+    about: "",
   },
   {
-    image: require("../images/Avatars/Vlad.png"),
+    imgSrc: require("../images/Avatars/Vlad.png"),
     name: "Владислав",
-    post: "UI/Ux designer",
+    fullname: "Кулагин Владислав Владимирович",
+    birth: "",
+    desc: "UI/Ux designer",
+    edu: "",
+    about: "",
   },
 ];
 

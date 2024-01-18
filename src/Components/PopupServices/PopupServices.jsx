@@ -2,6 +2,7 @@
 import ListPopupService from "../ListPopupService/ListPopupService";
 import { listPopupServiceText } from "../../utils/arrays";
 import CloseIcon from "../../images/close-white.png";
+import React from "react";
 import "./PopupServices.css";
 
 export default function PopupServices({
@@ -44,4 +45,3 @@ export default function PopupServices({
     </div>
   );
 }
-//

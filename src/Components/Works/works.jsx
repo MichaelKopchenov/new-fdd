@@ -4,6 +4,7 @@ import {
   buttonComponentText,
   listComponentWorksText,
 } from "../../utils/arrays";
+import React from "react";
 import "./Works.css";
 
 export default function Works() {
