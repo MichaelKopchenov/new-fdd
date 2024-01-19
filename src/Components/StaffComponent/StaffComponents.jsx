@@ -1,5 +1,5 @@
 import { staffComponentImage } from "../../utils/arrays";
-import PopupStaff from "../PopupStaff/PopupStaff";
+// import PopupStaff from "../PopupStaff/PopupStaff";
 import { useState } from "react";
 import "./StaffComponents.css";
 import React from "react";
@@ -33,7 +33,7 @@ export default function StaffComponent() {
           </p>
         </div>
       ))}
-      {isModalOpen && (
+      {/* {isModalOpen && (
         <PopupStaff
           onClose={() => setIsModalOpen(null)}
           fullname={isModalOpen.fullname}
@@ -45,7 +45,7 @@ export default function StaffComponent() {
           edu={isModalOpen.edu}
           isOpen={true}
         />
-      )}
+      )} */}
     </>
   );
 }
