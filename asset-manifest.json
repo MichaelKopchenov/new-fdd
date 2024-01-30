@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/new-fdd/static/css/main.e40bc5c9.css",
-    "main.js": "/new-fdd/static/js/main.4e82d939.js",
+    "main.css": "/new-fdd/static/css/main.8fbca38e.css",
+    "main.js": "/new-fdd/static/js/main.25f8ce2b.js",
     "static/js/787.5750b760.chunk.js": "/new-fdd/static/js/787.5750b760.chunk.js",
     "static/media/Michael.png": "/new-fdd/static/media/Michael.b0f3323aed6f8ab3c453.png",
     "static/media/mesto.png": "/new-fdd/static/media/mesto.4bef311b37221864be32.png",
@@ -24,6 +24,7 @@
     "static/media/Inter-Medium.woff2": "/new-fdd/static/media/Inter-Medium.8a50feca5194fae5cc45.woff2",
     "static/media/Inter-Black.woff2": "/new-fdd/static/media/Inter-Black.ed17840f58cc8c61635a.woff2",
     "static/media/Vlad.png": "/new-fdd/static/media/Vlad.a3c63ef733ad8fd6fd1d.png",
+    "static/media/Sergey2.png": "/new-fdd/static/media/Sergey2.fc5e0ccd7c1617b7be74.png",
     "static/media/Inter-Regular.woff2": "/new-fdd/static/media/Inter-Regular.bd097ceff83f90802a12.woff2",
     "static/media/BuyanThin.ttf": "/new-fdd/static/media/BuyanThin.0e0ceef676bd2d0915b0.ttf",
     "static/media/BuyanRegular.ttf": "/new-fdd/static/media/BuyanRegular.5c1856c3045c01b9ec35.ttf",
@@ -32,12 +33,12 @@
     "static/media/standarts-item.svg": "/new-fdd/static/media/standarts-item.dd9e3ae6f717be764e0f.svg",
     "index.html": "/new-fdd/index.html",
     "static/media/menu_icon.svg": "/new-fdd/static/media/menu_icon.20592c70f9589834e81a.svg",
-    "main.e40bc5c9.css.map": "/new-fdd/static/css/main.e40bc5c9.css.map",
-    "main.4e82d939.js.map": "/new-fdd/static/js/main.4e82d939.js.map",
+    "main.8fbca38e.css.map": "/new-fdd/static/css/main.8fbca38e.css.map",
+    "main.25f8ce2b.js.map": "/new-fdd/static/js/main.25f8ce2b.js.map",
     "787.5750b760.chunk.js.map": "/new-fdd/static/js/787.5750b760.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e40bc5c9.css",
-    "static/js/main.4e82d939.js"
+    "static/css/main.8fbca38e.css",
+    "static/js/main.25f8ce2b.js"
   ]
 }
