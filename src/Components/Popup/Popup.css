@@ -29,9 +29,17 @@
     display: flex;
     padding: 20px;
     height: 95vh;
-    width: 50vw;
+    /* width: 50vw; */
 }
 
 .popup__content.active {
     transform: scale(1);
 }
+
+/* @media screen and (max-width: 280px) {
+
+    .popup__content {
+        height: 80vh;
+        width: 80%;
+    }
+} */

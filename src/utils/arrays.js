@@ -102,14 +102,12 @@ export const listComponentWorksText = [
   },
 ];
 
-export const alex = require("../images/Avatars/Alexey.png");
-
 export const staffComponentImage = [
   {
     imgSrc: require("../images/Avatars/Alexey.png"),
     name: "Алексей",
     fullname: "Червяков Алексей Андреевич",
-    birth: "",
+    birth: "18.04.1991",
     desc: "Product/Project manager",
     edu: "",
     about: "",
@@ -121,24 +119,26 @@ export const staffComponentImage = [
     birth: "19.11.1993г",
     desc: "Web-developer",
     edu: "Курс 'Веб-разработчик' в Яндекс.Практикум",
-    about: "",
+    about:
+      "С 2017 года работаю в РАНХиГС ИБДА. После того, как прошёл курс по веб-разработке, начал заниматься фриланс-заказами, но не ушёл с постоянной работы.",
   },
   {
     imgSrc: require("../images/Avatars/Sergey.png"),
     name: "Сергей",
-    fullname: "",
-    birth: "",
+    fullname: "Лощинин Сергей Вячеславович",
+    birth: "14.07.1982",
     desc: "Digital marketing",
-    edu: "",
-    about: "",
+    edu: "Образование высшее. Экономист.",
+    about:
+      "Работают в банке. Привлечение клиентов малого бизнеса. Живу в Москве. Люблю путешествовать",
   },
   {
     imgSrc: require("../images/Avatars/Vlad.png"),
     name: "Владислав",
     fullname: "Кулагин Владислав Владимирович",
-    birth: "",
+    birth: "02.06.1986",
     desc: "UI/Ux designer",
-    edu: "",
+    edu: "Бауманский учебный центр 'Специалист', online-платформа 'Contented'",
     about: "",
   },
   {
@@ -179,6 +179,7 @@ export const listLinksArrayOne = [
   },
   {
     way: "https://yandex.ru/maps/-/CDuniG2p",
+    target: "_blanc",
     text: "Москва, пр-т Вернадского 82",
   },
 ];

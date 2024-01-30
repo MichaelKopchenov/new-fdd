@@ -10,7 +10,7 @@ import "./Services.css";
 
 export default function Services() {
   return (
-    <div
+    <section
       id="Services"
       className="services"
     >
@@ -40,6 +40,6 @@ export default function Services() {
       <ButtonComponent
         {...buttonComponentText[1]}
       />
-    </div>
+    </section>
   );
 }

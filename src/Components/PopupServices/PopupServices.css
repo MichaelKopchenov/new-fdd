@@ -9,6 +9,7 @@
     z-index: 9999;
     height: 100vh;
     width: 100vw;
+    padding: 0;
     opacity: 0;
     right: 0;
     top: 0;
@@ -23,15 +24,14 @@
     background-color: rgba(6, 41, 61, 1);
     justify-content: center;
     transform: scale(.5);
-    border-radius: 12px;
     transition: .4s all;
     border-radius: 20px;
     align-items: center;
     position: relative;
     display: flex;
     padding: 20px;
-    height: 70vh;
-    width: 60vw;
+    height: 95vh;
+    width: 100vw;
 }
 
 .popup__services_content.active {
@@ -97,7 +97,7 @@ td {
     top: 10px;
 }
 
-@media screen and (max-width: 520px) {
+/* @media screen and (max-width: 520px) {
     .popup__services {
         height: 100%;
         width: 100%;
@@ -107,4 +107,16 @@ td {
         height: 80vh;
         width: 100%;
     }
-}
+} */
+
+/* @media screen and (max-width: 280px) {
+    .popup__services {
+        height: 100%;
+        width: 100%;
+    }
+
+    .popup__services_content {
+        height: 80vh;
+        width: 100%;
+    }
+} */

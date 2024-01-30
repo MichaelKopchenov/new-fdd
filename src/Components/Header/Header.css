@@ -25,8 +25,9 @@
     padding: 31px 0;
 }
 
-.header__li:hover {
+.header__li-link:hover {
     border-bottom: 2px solid #FFF;
+    transition: border-bottom .8s;
 }
 
 .header__li-link {
@@ -82,6 +83,14 @@
     padding: 10px 0;
 }
 
+@media screen and (max-width: 768px) {
+    .header__burger {
+        max-height: 40px;
+        margin-right: 5px;
+        right: 0;
+    }
+}
+
 @media screen and (max-width: 320px) {
     .header {
         max-width: 320px;
@@ -90,11 +99,5 @@
     .header__li {
         padding: 0;
         margin: 0;
-    }
-}
-
-@media screen and (max-width: 768px) {
-    .header__burger {
-        max-height: 40px;
     }
 }

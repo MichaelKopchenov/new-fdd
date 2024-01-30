@@ -10,7 +10,7 @@ export default function PopupServices({
   setActive,
 }) {
   return (
-    <div
+    <dialog
       id="popupServices"
       className={
         active
@@ -42,6 +42,6 @@ export default function PopupServices({
           ))}
         </ul>
       </div>
-    </div>
+    </dialog>
   );
 }

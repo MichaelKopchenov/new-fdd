@@ -4,8 +4,11 @@
     align-items: center;
     text-align: center;
     background: #FFF;
+    position: relative;
+    overflow: hidden;
     padding: 110px 0;
     display: flex;
+    z-index: 1;
 }
 
 .services__title {

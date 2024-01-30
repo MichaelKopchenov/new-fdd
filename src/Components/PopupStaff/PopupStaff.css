@@ -9,6 +9,7 @@
     z-index: 9999;
     height: 100vh;
     width: 100vw;
+    padding: 0;
     opacity: 0;
     right: 0;
     top: 0;
@@ -30,8 +31,6 @@
     position: relative;
     display: flex;
     padding: 20px;
-    height: 40vh;
-    width: 20vw;
 }
 
 .popup__staff_content.active {
@@ -43,7 +42,7 @@
     border-radius: 10px;
     object-fit: cover;
     max-height: 255px;
-    max-width: 255px;
+    max-width: 191.25px;
     height: 255px;
 }
 

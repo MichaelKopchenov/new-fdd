@@ -14,7 +14,7 @@ export default function PopupStaff({
   about,
 }) {
   return (
-    <div
+    <dialog
       id="popupStaff"
       className={
         isOpen
@@ -65,6 +65,6 @@ export default function PopupStaff({
           </ul>
         </div>
       </div>
-    </div>
+    </dialog>
   );
 }

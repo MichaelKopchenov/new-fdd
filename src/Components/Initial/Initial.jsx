@@ -20,7 +20,7 @@ export default function Initial({
   }, []);
 
   return (
-    <div className="initial">
+    <section className="initial">
       <Header />
       <div className="initial__block">
         <h4 className="initial__block-h4">
@@ -40,6 +40,6 @@ export default function Initial({
         </span>
         <Button {...buttonComponentText[0]} />
       </div>
-    </div>
+    </section>
   );
 }

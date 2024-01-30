@@ -24,7 +24,7 @@ export default function Footer() {
         setActive={setModalActive}
       />
       <div className="footer__content">
-        <div className="footer__block">
+        <nav className="footer__block">
           <h2 className="footer__title">
             Контактная информация
           </h2>
@@ -36,8 +36,8 @@ export default function Footer() {
               />
             ))}
           </ul>
-        </div>
-        <div className="footer__block">
+        </nav>
+        <nav className="footer__block">
           <h2 className="footer__title">
             Основные ссылки
           </h2>
@@ -59,8 +59,8 @@ export default function Footer() {
               </a>
             </li>
           </ul>
-        </div>
-        <div className="footer__block">
+        </nav>
+        <nav className="footer__block">
           <h2 className="footer__title">
             Социальные сети
           </h2>
@@ -72,7 +72,7 @@ export default function Footer() {
               />
             ))}
           </ul>
-        </div>
+        </nav>
       </div>
       <p className="footer__copy">
         ©2024. Копченов Михаил Викторович
