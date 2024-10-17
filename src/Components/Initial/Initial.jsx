@@ -15,7 +15,7 @@ export default function Initial({
     titleRef.current.style = "border-right: none";
     const timer = setTimeout(() => {
       spanRef.current.style = "display: block";
-    }, 1500);
+    }, 1000);
     return () => clearTimeout(timer);
   }, []);
 

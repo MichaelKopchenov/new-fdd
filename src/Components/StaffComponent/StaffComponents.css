@@ -9,6 +9,12 @@
     max-height: 255px;
     max-width: 191.25px;
     height: 255px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.staff-component__image:hover {
+    transform: scale(1.2);
 }
 
 .staff-component__image:last-child {

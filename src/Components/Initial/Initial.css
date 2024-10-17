@@ -40,7 +40,7 @@
 
 
 .initial__block-h1 {
-    animation: typing-title 1s steps(20, end) forwards, blink-caret-title .3s infinite, textShine 3s ease-in-out infinite alternate;
+    animation: typing-title 1s steps(20, end) forwards, blink-caret-title 10s infinite, textShine 10s ease-in-out infinite alternate;
     border-right: 2px solid rgba(77, 189, 252, 1);
     -webkit-text-fill-color: transparent;
     background: linear-gradient(to right,
@@ -57,7 +57,7 @@
 }
 
 .initial__block-span {
-    animation: typing-span 1s steps(20, end) forwards, blink-caret-span .8s infinite, textShine 3s ease-in-out infinite alternate;
+    animation: typing-span 1s steps(20, end) forwards, blink-caret-span 10s infinite, textShine 10s ease-in-out infinite alternate;
     border-right: 2px solid rgba(221, 29, 29, 1);
     -webkit-text-fill-color: transparent;
     background: linear-gradient(to right,
