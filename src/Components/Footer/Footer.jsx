@@ -1,6 +1,5 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import ListComponentLink from "../ListComponentLink/ListComponentLink";
-import PopupServices from "../PopupServices/PopupServices";
 import {
   listLinksArrayTwo,
   listLinksArrayOne,
@@ -19,10 +18,6 @@ export default function Footer() {
       id="Footer"
       className="footer"
     >
-      <PopupServices
-        active={modalActive}
-        setActive={setModalActive}
-      />
       <div className="footer__content">
         <nav className="footer__block">
           <h2 className="footer__title">
@@ -49,10 +44,8 @@ export default function Footer() {
               />
             ))}
             <li className="footer__link">
-              <a
-                onClick={() =>
-                  setModalActive(true)
-                }
+              <a 
+                href="#Price"
                 className="footer__text"
               >
                 Наши услуги

@@ -1,21 +1,20 @@
-.list-popup-service {
+.list-price-service {
     flex-direction: column;
-    align-items: center;
+    text-decoration: none;
     margin-right: 50px;
-    text-align: left;
     display: flex;
 }
 
-.list-popup-service:last-child {
+.list-price-service:last-child {
     margin: 0;
 }
 
-.list-popup-service__block {
+.list-price-service__block {
     align-items: center;
     display: flex;
 }
 
-.list-popup-service__image {
+.list-price-service__image {
     background-image: url(../../images/standarts-item.svg);
     background-repeat: no-repeat;
     background-position: center;
@@ -26,7 +25,7 @@
     width: 30px;
 }
 
-.list-popup-service__title {
+.list-price-service__title {
     font-family: 'Montserrat';
     line-height: 146.28%;
     font-style: normal;
@@ -37,12 +36,10 @@
     margin: 0;
 }
 
-.list-popup-service__description {
+.list-price-service__description {
     color: var(--grey, #999);
     font-family: 'Montserrat';
     line-height: 158.47%;
-    margin: 17px auto 0;
-    text-align: center;
     font-style: normal;
     font-weight: 400;
     max-width: 250px;
@@ -52,23 +49,27 @@
 
 @media screen and (max-width: 1280px) {
 
-    .list-popup-service,
-    .list-popup-service:last-child {
+    .list-price-service,
+    .list-price-service:last-child {
         margin: 20px 30px 0;
         min-height: 150px;
     }
 }
 
 @media screen and (max-width: 1024px) {
-    .list-popup-service {
-        min-height: 125px;
+    .list-price-service {
+        min-height: 142px;
+        min-width: 364px;
         margin-top: 20px;
+        margin-right: 0;
+    }
+    .list-price-service:last-child {
         margin-right: 0;
     }
 }
 
 @media screen and (max-width: 768px) {
-    .list-popup-service {
+    .list-price-service {
         min-height: 150px;
         margin-top: 20px;
         margin-right: 0;
@@ -77,38 +78,38 @@
 }
 
 @media screen and (max-width: 520px) {
-    .list-popup-service__title {
+    .list-price-service__title {
         font-size: 13px;
     }
 
-    .list-popup-service__description {
+    .list-price-service__description {
         font-size: 10px;
     }
 }
 
 @media screen and (max-width: 320px) {
-    .list-popup-service {
+    .list-price-service {
         margin-top: 20px;
         margin-right: 0;
     }
 
-    .list-popup-service__image {
+    .list-price-service__image {
         margin-right: 10px;
     }
 }
 
 @media screen and (max-width: 280px) {
 
-    .list-popup-service,
-    .list-popup-service:last-child {
+    .list-price-service,
+    .list-price-service:last-child {
         min-width: 240px;
         margin-right: 0;
         margin-left: 0;
         margin-top: 0;
     }
 
-    .list-popup-service__title,
-    .list-popup-service__description {
+    .list-price-service__title,
+    .list-price-service__description {
         font-size: 8px;
     }
 }

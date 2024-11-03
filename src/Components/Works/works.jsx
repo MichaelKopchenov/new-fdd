@@ -15,8 +15,7 @@ export default function Works() {
     >
       <div className="works__block">
         <h2 className="works__title">
-          Наши работы, на которых мы
-          специализируемся
+          Наши работы
         </h2>
         <ButtonComponent
           {...buttonComponentText[1]}

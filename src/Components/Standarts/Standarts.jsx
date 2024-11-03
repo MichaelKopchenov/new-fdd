@@ -15,7 +15,7 @@ export default function Standarts() {
           className="standarts__content_block"
         >
           <h2 className="standarts__content_block_title">
-            Высокие стандарты разработки
+            Почему выбирают нас?
           </h2>
           <p className="standarts__content_block_description">
             Мы предоставляем широкий спектр услуг

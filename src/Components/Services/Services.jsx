@@ -18,16 +18,13 @@ export default function Services() {
         data-aos="zoom-in"
         className="services__title"
       >
-        Мы создаем WEB-приложения для наших
-        клиентов
+        Полный цикл разработки и сопровождения веб-проектов
       </h2>
       <p
         data-aos="zoom-in"
         className="services__description"
       >
-        Наши уникальные подходы и передовые
-        технологии обеспечат ваш бизнес надежным
-        фундаментом в цифровом пространстве.
+        Ваш бизнес заслуживает лучшего! Мы предлагаем комплексные решения, начиная с идеи и заканчивая успешным запуском и продвижением.
       </p>
       <ul className="services__list">
         {listComponentText.map((item) => (

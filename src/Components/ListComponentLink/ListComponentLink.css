@@ -11,7 +11,7 @@
 }
 
 .list-component-link__text {
-    color: var(--grey, #999);
+    color: var(--grey, #2c2a2a);
     text-decoration: none;
     margin: 0;
 }

@@ -1,5 +1,4 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
-import PopupServices from "../PopupServices/PopupServices";
 import CloseIcon from "../../images/close-white.png";
 import { useState } from "react";
 import "../Header/Header.css";
@@ -20,10 +19,6 @@ export default function Popup({
 
   return (
     <>
-      <PopupServices
-        active={modalActive}
-        setActive={setModalActive}
-      />
       <div
         id="popup"
         className={

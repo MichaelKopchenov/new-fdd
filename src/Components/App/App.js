@@ -7,6 +7,7 @@ import Footer from "../Footer/Footer";
 import Works from "../Works/works";
 import Team from "../Team/Team";
 import AOS from "../AOS/AOS";
+import Price from "../Price/price";
 import React from "react";
 import "./App.css";
 
@@ -32,6 +33,7 @@ export default function App() {
           <Services />
           <Standarts />
           <Works />
+          <Price />
           <Team />
           <Footer />
         </>

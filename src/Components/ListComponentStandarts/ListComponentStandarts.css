@@ -63,9 +63,13 @@
 
 @media screen and (max-width: 1024px) {
     .list-component-standarts {
-        min-height: 125px;
+        min-height: 142px;
         margin-top: 20px;
         margin-right: 0;
+    }
+
+    .list-component-standarts:last-child {
+        margin-top: 20px;
     }
 }
 

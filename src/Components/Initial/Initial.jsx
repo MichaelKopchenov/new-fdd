@@ -24,7 +24,7 @@ export default function Initial({
       <Header />
       <div className="initial__block">
         <h4 className="initial__block-h4">
-          Передовая IT-студия
+        Трансформируем ваши идеи в реальность
         </h4>
         <h1
           ref={titleRef}

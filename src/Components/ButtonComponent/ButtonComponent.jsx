@@ -1,4 +1,3 @@
-import PopupServices from "../PopupServices/PopupServices";
 import { useState } from "react";
 import "./ButtonComponent.css";
 import React from "react";
@@ -14,16 +13,11 @@ export default function ButtonComponent({
       <a
         href={hrefTo}
         className="button-component__block-button"
-        onClick={() => setModalActive(true)}
       >
         <p className="button-component__block-button_text">
           {title}
         </p>
       </a>
-      <PopupServices
-        active={modalActive}
-        setActive={setModalActive}
-      />
     </>
   );
 }

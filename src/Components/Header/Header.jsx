@@ -1,5 +1,4 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
-import PopupServices from "../PopupServices/PopupServices";
 import { useState, useEffect } from "react";
 import Popup from "../Popup/Popup";
 import React from "react";
@@ -49,10 +48,6 @@ export default function Header() {
         className="header"
         id="Header"
       >
-        <PopupServices
-          active={modalActive}
-          setActive={setModalActive}
-        />
         <ul className="header__ul">
           <li className="header__li">
             <a
@@ -72,7 +67,7 @@ export default function Header() {
           </li>
           <li className="header__li">
             <a
-              onClick={() => setModalActive(true)}
+              href="#Price"
               className="header__li-link"
             >
               Услуги
