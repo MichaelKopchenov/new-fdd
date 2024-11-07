@@ -42,13 +42,13 @@ export default function PopupStaff({
           alt={desc}
           className="popup__staff_image"
         />
-        <h2 className="popup__staff_title">
+        <h3 className="popup__staff_title">
           {name}
-        </h2>
+        </h3>
         <div className="popup__staff_block">
-          <h3 className="popup__staff_subtitle">
+          <h4 className="popup__staff_subtitle">
             {desc}
-          </h3>
+          </h4>
           <ul>
             <li className="popup__staff_post">
               {fullname}

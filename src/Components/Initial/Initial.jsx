@@ -23,9 +23,6 @@ export default function Initial({
     <section className="initial">
       <Header />
       <div className="initial__block">
-        <h4 className="initial__block-h4">
-        Трансформируем ваши идеи в реальность
-        </h4>
         <h1
           ref={titleRef}
           className="initial__block-h1 initial__text"
@@ -38,6 +35,9 @@ export default function Initial({
         >
           Decisions
         </span>
+        <p className="initial__block-h4">
+          Трансформируем ваши идеи в реальность
+        </p>
         <Button {...buttonComponentText[0]} />
       </div>
     </section>

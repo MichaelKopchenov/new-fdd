@@ -28,9 +28,9 @@ export default function StaffComponent() {
             className="staff-component__image"
             //data-aos="zoom-out"
           />
-          <h2 className="staff__title">
+          <h3 className="staff__title">
             {image.name}
-          </h2>
+          </h3>
           <p className="staff__post">
             {image.desc}
           </p>
