@@ -1,6 +1,7 @@
 {
-  "homepage": "https://michaelkopchenov.github.io/new-fdd/",
+  "homepage": "https://fast-dd.ru",
   "name": "new-fdd",
+  "description": "Создание сайтов под ключ | Разработка веб-сайтов для бизнеса",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -15,6 +16,16 @@
     "react-table": "^7.8.0",
     "web-vitals": "^2.1.4"
   },
+  "keywords": [
+    "создание сайтов под ключ", 
+    "разработка и создание сайтов", 
+    "заказать сайт для бизнеса",
+    "создание интернет-магазинов",
+    "создание корпоративных сайтов",	
+    "разработка лендингов",	
+    "услуги веб-разработки"
+  ],
+  "author": "Копченов Михаил Викторович",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
