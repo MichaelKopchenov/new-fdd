@@ -60,13 +60,6 @@ export const listPriceServiceText = [
     description_three: "от 7-10 дней",
   },
   {
-    title: "Создание интернет-магазинов:",
-    description_one:
-      "Платформа для онлайн-продаж с интеграцией платежных систем.",
-    description_two: "от 500.000-900.000 рублей",
-    description_three: "от 25-35 дней",
-  },
-  {
     title: "UI/UX-дизайн:",
     description_one:
       "Разработка уникального дизайна под ваш бренд.",
