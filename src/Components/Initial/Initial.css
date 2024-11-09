@@ -54,6 +54,7 @@
     margin: 20px auto 10px auto;
     background-size: 500% auto;
     text-transform: uppercase;
+    padding-left: 10px;
     background-clip: text;
 }
 
