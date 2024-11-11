@@ -1,6 +1,5 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import CloseIcon from "../../images/close-white.png";
-import { useState } from "react";
 import "../Header/Header.css";
 import React from "react";
 import "./Popup.css";
@@ -9,14 +8,6 @@ export default function Popup({
   active,
   setActive,
 }) {
-  const [setModalActive] =
-    useState(false);
-
-  function Popups() {
-    setActive(false);
-    setModalActive(true);
-  }
-
   return (
     <>
       <div
@@ -102,12 +93,13 @@ export default function Popup({
               }
             >
               <a
+                href="#Price"
                 className={
                   active
                     ? "header__li-link active"
                     : ""
                 }
-                onClick={Popups}
+                onClick={() => setActive(false)}
               >
                 Услуги
               </a>

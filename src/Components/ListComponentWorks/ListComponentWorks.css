@@ -1,6 +1,7 @@
 .list-component-works {
     flex-direction: column;
     box-sizing: border-box;
+    border-radius: 10px;
     margin-right: 30px;
     display: flex;
 }

@@ -54,7 +54,6 @@
     margin: 20px auto 10px auto;
     background-size: 500% auto;
     text-transform: uppercase;
-    padding-left: 10px;
     background-clip: text;
 }
 
@@ -108,6 +107,12 @@
     .initial__block-span {
         max-width: 320px;
         padding: 0;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .initial__block-h1 {
+        max-width: 320px;
     }
 }
 

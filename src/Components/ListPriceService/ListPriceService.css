@@ -1,20 +1,20 @@
-.list-price-service {
+.list-component-price {
     flex-direction: column;
     text-decoration: none;
     margin-right: 50px;
     display: flex;
 }
 
-.list-price-service:last-child {
+.list-component-price:last-child {
     margin: 0;
 }
 
-.list-price-service__block {
+.list-component-price__block {
     align-items: center;
     display: flex;
 }
 
-.list-price-service__image {
+.list-component-price__image {
     background-image: url(../../images/standarts-item.svg);
     background-repeat: no-repeat;
     background-position: center;
@@ -25,91 +25,69 @@
     width: 30px;
 }
 
-.list-price-service__title {
+.list-component-price__title {
     font-family: 'Montserrat';
     line-height: 146.28%;
     font-style: normal;
     font-weight: 500;
+    max-width: 250px;
     font-size: 16px;
     flex-shrink: 0;
-    color: white;
+    color: #fff;
     margin: 0;
 }
 
-.list-price-service__description {
+.list-component-price__description {
     color: var(--grey, #999);
     font-family: 'Montserrat';
     line-height: 158.47%;
     font-style: normal;
-    font-weight: 400;
     max-width: 250px;
+    font-weight: 400;
     font-size: 12px;
 }
 
-
-@media screen and (max-width: 1280px) {
-
-    .list-price-service,
-    .list-price-service:last-child {
-        margin: 20px 30px 0;
-        min-height: 150px;
+@media screen and (min-width: 1500px) and (max-width: 1750px) {
+    .list-component-price:last-child {
+        margin-right: 50px;
+        margin-top: 40px;
     }
 }
 
+@media screen and (min-width: 1281px) and (max-width: 1499px) {
+    .list-component-price:nth-last-child(-n+2) {
+        margin: 40px 50px 0 0;
+    }
+}
+
+
 @media screen and (max-width: 1024px) {
-    .list-price-service {
+    .list-component-price {
         min-height: 142px;
-        min-width: 364px;
         margin-top: 20px;
         margin-right: 0;
     }
-    .list-price-service:last-child {
-        margin-right: 0;
+
+    .list-component-price:last-child {
+        margin-top: 20px;
     }
 }
 
 @media screen and (max-width: 768px) {
-    .list-price-service {
-        min-height: 150px;
+    .list-component-price {
         margin-top: 20px;
         margin-right: 0;
-        margin-left: 0;
-    }
-}
-
-@media screen and (max-width: 520px) {
-    .list-price-service__title {
-        font-size: 13px;
-    }
-
-    .list-price-service__description {
-        font-size: 10px;
+        max-width: 250px;
     }
 }
 
 @media screen and (max-width: 320px) {
-    .list-price-service {
-        margin-top: 20px;
+    .list-component-price {
+        margin: 20px 0 0;
         margin-right: 0;
     }
 
-    .list-price-service__image {
+    .list-component-price__image {
         margin-right: 10px;
-    }
-}
-
-@media screen and (max-width: 280px) {
-
-    .list-price-service,
-    .list-price-service:last-child {
-        min-width: 240px;
-        margin-right: 0;
-        margin-left: 0;
-        margin-top: 0;
-    }
-
-    .list-price-service__title,
-    .list-price-service__description {
-        font-size: 8px;
     }
 }
