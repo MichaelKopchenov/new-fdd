@@ -1,9 +1,5 @@
 import ListComponentWorks from "../ListComponentWorks/ListComponentWorks";
-import ButtonComponent from "../ButtonComponent/ButtonComponent";
-import {
-  buttonComponentText,
-  listComponentWorksText,
-} from "../../utils/arrays";
+import { listComponentWorksText } from "../../utils/arrays";
 import React from "react";
 import "./Works.css";
 
@@ -17,9 +13,6 @@ export default function Works() {
         <h2 className="works__title">
           Наши работы
         </h2>
-        <ButtonComponent
-          {...buttonComponentText[1]}
-        />
       </div>
       <ul className="works__list">
         {listComponentWorksText.map((block) => (
