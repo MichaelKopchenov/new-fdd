@@ -9,7 +9,7 @@ export default function Popup({
   active,
   setActive,
 }) {
-  const [modalActive, setModalActive] =
+  const [setModalActive] =
     useState(false);
 
   function Popups() {

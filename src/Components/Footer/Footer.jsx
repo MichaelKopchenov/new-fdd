@@ -5,14 +5,10 @@ import {
   listLinksArrayOne,
   listLinksArrayThree,
 } from "../../utils/arrays";
-import { useState } from "react";
 import React from "react";
 import "./Footer.css";
 
 export default function Footer() {
-  const [modalActive, setModalActive] =
-    useState(false);
-
   return (
     <footer
       id="Footer"
@@ -44,7 +40,7 @@ export default function Footer() {
               />
             ))}
             <li className="footer__link">
-              <a 
+              <a
                 href="#Price"
                 className="footer__text"
               >
