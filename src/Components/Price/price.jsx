@@ -3,7 +3,7 @@ import { listPriceServiceText } from "../../utils/arrays";
 import React from "react";
 import "./Price.css";
 
-export default function Standarts() {
+export default function Price() {
   return (
     <section
       id="Price"

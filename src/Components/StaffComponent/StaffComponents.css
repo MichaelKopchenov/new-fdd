@@ -1,16 +1,20 @@
+.staff-component {
+    display: flex;
+    flex-direction: column;
+    margin-right: 30px;
+}
+
 .staff-component__block {
     display: flex;
 }
 
 .staff-component__image {
     border-radius: 10px;
-    margin-right: 30px;
     object-fit: cover;
-    max-height: 255px;
-    max-width: 191.25px;
-    height: 255px;
     cursor: pointer;
+    width: 191.25px;
     transition: 1s;
+    height: 255px;
 }
 
 .staff-component__image:hover {

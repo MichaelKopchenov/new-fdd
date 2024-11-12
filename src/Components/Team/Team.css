@@ -34,10 +34,10 @@
 }
 
 .team__staff {
-    justify-content: center;
-    margin: 70px auto 50px;
-    flex-wrap: wrap;
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 40px calc((100% - (255px * 3)) / 2);
 }
 
 @media screen and (max-width: 320px) {

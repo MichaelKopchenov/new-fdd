@@ -102,3 +102,9 @@
         width: 100%;
     }
 }
+
+@media screen and (max-width: 320px) {
+    .popup__staff_image {
+        max-width: 170px;
+    }
+}

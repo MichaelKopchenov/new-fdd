@@ -1,14 +1,11 @@
 .price {
-    background-color: rgba(6, 41, 61, 1);
-    padding: 100px 0 70px 0;
     flex-direction: column;
     align-items: center;
+    background: rgba(6, 41, 61, 1);
     display: flex;
 }
 
 .price__content {
-    border-bottom: 1px solid #e0e0e0;
-    padding-bottom: 90px;
     align-items: center;
     flex-wrap: wrap;
     display: flex;
@@ -38,10 +35,11 @@
 
 .price__list {
     justify-content: center;
-    margin: 70px auto 0;
+    margin-bottom: 40px;
     flex-wrap: wrap;
     display: flex;
     padding: 0;
+    gap: 30px;
 }
 
 @media screen and (max-width: 1280px) {

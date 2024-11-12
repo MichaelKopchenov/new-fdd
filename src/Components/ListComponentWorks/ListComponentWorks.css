@@ -4,6 +4,7 @@
     border-radius: 10px;
     margin-right: 30px;
     display: flex;
+    width: 350px;
 }
 
 .list-component-works:last-child {
@@ -20,6 +21,7 @@
     max-height: 300px;
     max-width: 320px;
     height: 300px;
+    border-radius: 10px;
 }
 
 .list-component-works__block {
@@ -40,6 +42,7 @@
     color: var(--grey, #999);
     font-family: 'Montserrat';
     line-height: 158.47%;
+    padding-bottom: 20px;
     margin: 30px auto 0;
     font-style: normal;
     font-weight: 400;
