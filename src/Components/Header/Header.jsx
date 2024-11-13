@@ -53,7 +53,6 @@ export default function Header() {
             <a
               href="#Team"
               className="header__li-link"
-              rel="noopener noreferrer"
             >
               Наша команда
             </a>
@@ -62,7 +61,6 @@ export default function Header() {
             <a
               href="#Works"
               className="header__li-link"
-              rel="noopener noreferrer"
             >
               Наши проекты
             </a>
@@ -71,7 +69,6 @@ export default function Header() {
             <a
               href="#Price"
               className="header__li-link"
-              rel="noopener noreferrer"
             >
               Услуги
             </a>
@@ -80,7 +77,6 @@ export default function Header() {
             <a
               href="#Footer"
               className="header__li-link"
-              rel="noopener noreferrer"
             >
               Контакты
             </a>
