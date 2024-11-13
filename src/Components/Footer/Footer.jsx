@@ -43,6 +43,7 @@ export default function Footer() {
               <a
                 href="#Price"
                 className="footer__text"
+                rel="noopener noreferrer"
               >
                 Наши услуги
               </a>

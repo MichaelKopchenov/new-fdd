@@ -9,6 +9,7 @@ export default function Button({
     <a
       href={hrefTo}
       className="button__block-button"
+      rel="noopener noreferrer"
     >
       <p className="button__block-button_text">
         {title}

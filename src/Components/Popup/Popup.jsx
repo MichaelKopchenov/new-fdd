@@ -48,6 +48,7 @@ export default function Popup({
                     ? "header__li-link active"
                     : ""
                 }
+                rel="noopener noreferrer"
                 onClick={() => setActive(false)}
               >
                 Главная
@@ -65,6 +66,7 @@ export default function Popup({
                     ? "header__li-link active"
                     : ""
                 }
+                rel="noopener noreferrer"
                 onClick={() => setActive(false)}
               >
                 Наша команда
@@ -82,6 +84,7 @@ export default function Popup({
                     ? "header__li-link active"
                     : ""
                 }
+                rel="noopener noreferrer"
                 onClick={() => setActive(false)}
               >
                 Наши проекты
@@ -99,6 +102,7 @@ export default function Popup({
                     ? "header__li-link active"
                     : ""
                 }
+                rel="noopener noreferrer"
                 onClick={() => setActive(false)}
               >
                 Услуги
@@ -116,6 +120,7 @@ export default function Popup({
                     ? "header__li-link active"
                     : ""
                 }
+                rel="noopener noreferrer"
                 onClick={() => setActive(false)}
               >
                 Контакты

@@ -13,6 +13,7 @@ export default function ListComponentLink({
           href={way}
           target={target}
           className="list-component-link__text"
+          rel="noopener noreferrer"
         >
           {text}
         </a>
