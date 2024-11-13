@@ -45,6 +45,7 @@
     max-width: 250px;
     font-weight: 400;
     font-size: 12px;
+    margin: 5px;
 }
 
 @media screen and (min-width: 1500px) and (max-width: 1750px) {
@@ -54,11 +55,11 @@
     }
 }
 
-@media screen and (min-width: 1281px) and (max-width: 1499px) {
+/* @media screen and (min-width: 1281px) and (max-width: 1499px) {
     .list-component-price:nth-last-child(-n+2) {
         margin: 40px 50px 0 0;
     }
-}
+} */
 
 
 @media screen and (max-width: 1024px) {
