@@ -7,10 +7,6 @@
     width: 350px;
 }
 
-.list-component-works:last-child {
-    margin: 0;
-}
-
 .list-component-works__content {
     max-height: 300px;
     max-width: 350px;
