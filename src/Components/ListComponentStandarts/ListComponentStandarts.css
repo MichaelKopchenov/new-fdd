@@ -50,13 +50,6 @@
     }
 }
 
-@media screen and (min-width: 1281px) and (max-width: 1499px) {
-    .list-component-standarts:nth-last-child(-n+2) {
-        margin: 40px 50px 0 0;
-    }
-}
-
-
 @media screen and (max-width: 1024px) {
     .list-component-standarts {
         min-height: 142px;
