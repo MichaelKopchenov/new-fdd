@@ -8,6 +8,7 @@
       "type": "svg"
     }
   ],
+  "id": "/",
   "start_url": "https://fast-dd.ru/",
   "display": "standalone",
   "theme_color": "#000000",
