@@ -5,10 +5,6 @@
     display: flex;
 }
 
-.list-component-standarts:last-child {
-    margin: 0;
-}
-
 .list-component-standarts__block {
     align-items: center;
     display: flex;

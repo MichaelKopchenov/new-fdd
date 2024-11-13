@@ -38,6 +38,7 @@
     flex-wrap: wrap;
     justify-content: center;
     padding: 40px calc((100% - (255px * 3)) / 2);
+    gap: 15px;
 }
 
 @media screen and (max-width: 320px) {

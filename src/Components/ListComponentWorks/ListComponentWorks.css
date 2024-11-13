@@ -17,11 +17,12 @@
 }
 
 .list-component-works__image {
+    border-radius: 10px;
+    margin: 10px;
     object-fit: cover;
     max-height: 300px;
     max-width: 320px;
     height: 300px;
-    border-radius: 10px;
 }
 
 .list-component-works__block {
@@ -36,6 +37,7 @@
     font-weight: 600;
     font-size: 18px;
     color: #000;
+    text-align: center;
 }
 
 .list-component-works__description {

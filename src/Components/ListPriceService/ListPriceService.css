@@ -7,10 +7,6 @@
     max-height: 178px;
 }
 
-.list-component-price:last-child {
-    margin: 0;
-}
-
 .list-component-price__block {
     align-items: center;
     display: flex;
