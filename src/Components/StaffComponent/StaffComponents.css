@@ -1,7 +1,6 @@
 .staff-component {
     display: flex;
     flex-direction: column;
-    margin-right: 30px;
 }
 
 .staff-component__block {

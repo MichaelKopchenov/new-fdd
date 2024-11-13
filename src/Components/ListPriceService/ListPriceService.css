@@ -1,7 +1,6 @@
 .list-component-price {
     flex-direction: column;
     text-decoration: none;
-    margin-right: 50px;
     display: flex;
     max-width: 250px;
     max-height: 178px;

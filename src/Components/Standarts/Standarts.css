@@ -47,12 +47,11 @@
 }
 
 .standarts__list {
-    justify-content: center;
-    margin: 70px auto 0;
-    max-width: 1280px;
-    flex-wrap: wrap;
     display: flex;
-    padding: 0;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 40px calc((100% - (255px * 3)) / 3);
+    gap: 15px;
 }
 
 @media screen and (max-width: 1280px) {
