@@ -22,7 +22,7 @@
     <th>
         <center>
             <img 
-                src="/src/images/Avatars/Alexey.png" 
+                src="/src/images/Avatars/Sergey2.png" 
                 width="164" 
                 height="218"
             />
@@ -31,7 +31,7 @@
     <th>
         <center>
             <img 
-                src="/src/images/Avatars/Vlad.png" 
+                src="/src/images/Avatars/Vlad.JPG" 
                 width="164" 
                 height="218"
             />
@@ -50,7 +50,7 @@
   <tr>
     <td>
         <center>
-            Червяков Алексей Андреевич</br> Product/Project manager
+            Рябов Сергей Дмитриевич</br> Web-developer
         </center>
     </td>
     <td>

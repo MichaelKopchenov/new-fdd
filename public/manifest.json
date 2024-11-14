@@ -1,11 +1,11 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "FDD",
+  "name": "FastDigitalDecisions | Верстка сайтов ",
   "icons": [
     {
       "src": "favicon.ico",
       "sizes": "121x121",
-      "type": "svg"
+      "type": "SVG"
     }
   ],
   "id": "/",
