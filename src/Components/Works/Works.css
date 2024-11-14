@@ -1,3 +1,4 @@
+/*
 .works {
     background: linear-gradient(90deg, rgba(6, 41, 61, 1) 20.44%, rgba(6, 41, 61, 1)80.91%), #C4C4C4;
     background-repeat: no-repeat;
@@ -69,4 +70,60 @@
     .works__title {
         font-size: 26px;
     }
+}
+*/
+
+.works {
+    background: linear-gradient(90deg, rgba(6, 41, 61, 1) 20.44%, rgba(6, 41, 61, 1) 80.91%), #C4C4C4;
+    background-repeat: no-repeat;
+    background-size: 100% 420px;
+    background-color: #fff;
+    padding: 50px 0;
+}
+
+.works__block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.works__title {
+    font-family: 'Montserrat';
+    font-size: 36px;
+    font-weight: 700;
+    color: #FFF;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.works__list {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.slick-center .list-componet-works {
+    transform: scale(1.1);
+    /* Увеличиваем центральный слайд */
+    transition: transform 0.3s ease
+}
+
+.slick-slide {
+    /* padding: 10px; */
+    opacity: 0.5;
+}
+
+.slick-center {
+    opacity: 1;
+}
+
+.slick-dots li button:before {
+    color: #FFF;
+}
+
+.slick-prev,
+.slick-next {
+    color: #FFF;
+    font-size: 24px;
+    z-index: 1;
 }
