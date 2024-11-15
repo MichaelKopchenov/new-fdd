@@ -81,7 +81,7 @@ export const listPriceServiceText = [
     description_three: "от 3-7 дней",
   },
   {
-    title: "Доработка и улучшение:",
+    title: "Доработка:",
     description_one:
       "Оптимизация функционала, повышение скорости загрузки.",
     description_two: "от 30.000-40.000 рублей",
