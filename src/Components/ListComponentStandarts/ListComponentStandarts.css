@@ -43,12 +43,12 @@
     font-size: 12px;
 }
 
-@media screen and (min-width: 1500px) and (max-width: 1750px) {
+/* @media screen and (min-width: 1500px) and (max-width: 1750px) {
     .list-component-standarts:last-child {
         margin-right: 50px;
         margin-top: 40px;
     }
-}
+} */
 
 @media screen and (max-width: 1024px) {
     .list-component-standarts {

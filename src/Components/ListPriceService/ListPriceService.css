@@ -43,12 +43,12 @@
     margin: 5px;
 }
 
-@media screen and (min-width: 1500px) and (max-width: 1750px) {
+/* @media screen and (min-width: 1500px) and (max-width: 1750px) {
     .list-component-price:last-child {
         margin-right: 50px;
         margin-top: 40px;
     }
-}
+} */
 
 /* @media screen and (min-width: 1281px) and (max-width: 1499px) {
     .list-component-price:nth-last-child(-n+2) {
