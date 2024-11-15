@@ -74,10 +74,9 @@
 */
 
 .works {
-    background: linear-gradient(90deg, rgba(6, 41, 61, 1) 20.44%, rgba(6, 41, 61, 1) 80.91%), #C4C4C4;
+    background:  rgba(6, 41, 61, 1);
     background-repeat: no-repeat;
     background-size: 100% 420px;
-    background-color: #fff;
     padding: 50px 0;
 }
 
