@@ -12,7 +12,6 @@
 }
 
 .list-component-price__image {
-    background-image: url(../../images/standarts-item.svg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100%;

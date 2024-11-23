@@ -6,6 +6,8 @@ export default function ListPriceService({
   description_one,
   description_two,
   description_three,
+  backSrc,
+  altName,
 }) {
   return (
     <li
@@ -13,7 +15,11 @@ export default function ListPriceService({
       className="list-component-price"
     >
       <div className="list-component-price__block">
-        <div className="list-component-price__image" />
+        <img
+          src={backSrc}
+          alt={altName}
+          className="list-component-price__image"
+        />
         <h3 className="list-component-price__title">
           {title}
         </h3>

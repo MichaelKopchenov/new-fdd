@@ -58,6 +58,8 @@ export const listPriceServiceText = [
       "От лендингов до крупных корпоративных порталов.",
     description_two: "от 20.000-30.000 рублей",
     description_three: "от 7-10 дней",
+    backSrc: require("../images/icons/create_web.png"),
+    altName: "Создание сайтов",
   },
   {
     title: "UI/UX-дизайн:",
@@ -65,6 +67,8 @@ export const listPriceServiceText = [
       "Разработка уникального дизайна под ваш бренд.",
     description_two: "от 35.000-55.000 рублей",
     description_three: "от 14-20 дней",
+    backSrc: require("../images/icons/UX.png"),
+    altName: "UX",
   },
   {
     title: "SEO-оптимизация:",
@@ -72,6 +76,8 @@ export const listPriceServiceText = [
       "Настройка сайта для улучшения позиций в поисковиках.",
     description_two: "от 50.000-100.000 рублей",
     description_three: "от 14-20 дней",
+    backSrc: require("../images/icons/SEO.png"),
+    altName: "SEO",
   },
   {
     title: "Поддержка:",
@@ -79,6 +85,8 @@ export const listPriceServiceText = [
       "Регулярные обновления, защита от взломов, устранение ошибок.",
     description_two: "от 30.000-90.000 рублей",
     description_three: "от 3-7 дней",
+    backSrc: require("../images/icons/support.png"),
+    altName: "Поддержка",
   },
   {
     title: "Доработка:",
@@ -86,6 +94,8 @@ export const listPriceServiceText = [
       "Оптимизация функционала, повышение скорости загрузки.",
     description_two: "от 30.000-40.000 рублей",
     description_three: "от 3-7 дней",
+    backSrc: require("../images/icons/refinement.png"),
+    altName: "Доработки",
   },
   {
     title: "Оптимизация:",
@@ -93,6 +103,8 @@ export const listPriceServiceText = [
       "Тестирование, исправление ошибок и внесение последних улучшений.",
     description_two: "от 50.000-70.000 рублей",
     description_three: "от 7-14 дней",
+    backSrc: require("../images/icons/optimization.png"),
+    altName: "Оптимизация",
   },
   {
     title: "Cопровождение:",
@@ -100,6 +112,8 @@ export const listPriceServiceText = [
       "Запуск сайта, настройка аналитики и постоянная техническая поддержка и обновления.",
     description_two: "от 20.000-1.000.000 рублей",
     description_three: "от 7-35 дней",
+    backSrc: require("../images/icons/escort.png"),
+    altName: "Сопровождение",
   },
 ];
 
